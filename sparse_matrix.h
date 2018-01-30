@@ -1,6 +1,8 @@
 #ifndef SPARSE_MATRIX_H
 #define SPARSE_MATRIX_H
 
+#include "dense_matrix.h"
+
 #include <iostream>
 #include <tuple>
 #include <vector>
@@ -21,6 +23,8 @@ public:
   SparseMatrix<T>(unsigned int,
                   unsigned int,
                   std::vector<std::tuple<unsigned int, unsigned int, T>>&);
+
+  DenseMatrix<T> mat_mul(const SparseMatrix<T>&) const;
 
   // Still not sure why a new template has to be used.
   template <class S>
