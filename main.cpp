@@ -1,5 +1,6 @@
 #include "sparse_matrix.h"
 #include "dense_matrix.h"
+#include "knn_kernel.h"
 
 #include <vector>
 #include <tuple>
@@ -29,15 +30,6 @@ DenseMatrix<float> get_B() {
   result.assign(3, 3, 5.0);
 
   return result;
-}
-
-void knn(const DenseMatrix<float> &Q, const DenseMatrix<float> &R) {
-  // Q is (d, m), R is (d, n).
-
-  // C is (m, n).
-  DenseMatrix<float> C = (-SparseMatrix<float>(Q.transpose())).mat_mul(R);
-
-  cout << C << endl;
 }
 
 int main() {

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-float EPSILON = 1e-4;
+float EPSILON = 1e-6;
 
 // Reads from stdin
 // m n
@@ -40,9 +40,13 @@ void assert_close(const DenseMatrix<float> &A, const DenseMatrix<float> &B) {
   assert(A.m == B.m);
   assert(A.n == B.n);
 
-  for (unsigned int i = 0; i < A.m; i++)
-    for (unsigned int j = 0; j < A.n; j++)
-      assert(fabs(A(i, j) - B(i, j)) < EPSILON);
+  for (unsigned int i = 0; i < A.m; i++) {
+    for (unsigned int j = 0; j < A.n; j++) {
+      float relative_error = fabs(A(i, j) - B(i, j)) / (B(i, j) + EPSILON);
+
+      assert(relative_error < EPSILON);
+    }
+  }
 }
 
 int main() {
