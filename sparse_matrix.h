@@ -12,19 +12,27 @@ template <class T>
 class SparseMatrix {
 
 private:
-  unsigned int m;
-  unsigned int n;
-
   std::vector<unsigned int> colptr;
   std::vector<unsigned int> rowid;
   std::vector<T> value;
 
 public:
+  unsigned int m;
+  unsigned int n;
+
+private:
+  void init(unsigned int,
+            unsigned int,
+            std::vector<std::tuple<unsigned int, unsigned int, T>>&);
+
+public:
   SparseMatrix<T>(unsigned int,
                   unsigned int,
                   std::vector<std::tuple<unsigned int, unsigned int, T>>&);
+  SparseMatrix<T>(const DenseMatrix<T>&);
 
   DenseMatrix<T> mat_mul(const SparseMatrix<T>&) const;
+  SparseMatrix<T> operator-();
 
   // Still not sure why a new template has to be used.
   template <class S>

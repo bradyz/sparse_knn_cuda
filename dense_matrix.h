@@ -7,12 +7,12 @@ template <class T>
 class DenseMatrix {
 
 private:
-  unsigned int m;
-  unsigned int n;
-
   T** values;
 
 public:
+  unsigned int m;
+  unsigned int n;
+
   DenseMatrix<T>(unsigned int, unsigned int);
   ~DenseMatrix<T>();
 
@@ -20,6 +20,7 @@ public:
   T operator()(unsigned int, unsigned int) const;
 
   void assign(unsigned int, unsigned int, T);
+  DenseMatrix<T> transpose() const;
 
   template <class S>
   friend std::ostream& operator<<(std::ostream&, const DenseMatrix<S>&);

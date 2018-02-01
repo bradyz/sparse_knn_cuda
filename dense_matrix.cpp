@@ -36,6 +36,18 @@ void DenseMatrix<T>::assign(unsigned int m, unsigned int n, T val) {
 }
 
 template <class T>
+DenseMatrix<T> DenseMatrix<T>::transpose() const {
+  DenseMatrix<T> result(this->n, this->m);
+
+  for (int i = 0; i < this->m; i++) {
+    for (int j = 0; j < this->n; j++)
+      result.assign(j, i, this->values[i][j]);
+  }
+
+  return result;
+}
+
+template <class T>
 ostream& operator<<(ostream &os, const DenseMatrix<T> &mat) {
   os << "m: " << mat.m << " n: " << mat.n << endl;
 

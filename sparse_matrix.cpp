@@ -11,9 +11,12 @@ template <class T>
 using row_col_val = tuple<unsigned int, unsigned int, T>;
 
 template <class T>
-SparseMatrix<T>::SparseMatrix(unsigned int m,
-                              unsigned int n,
-                              vector<row_col_val<T>> &trips) : m(m), n(n) {
+void SparseMatrix<T>::init(unsigned int m,
+                           unsigned int n,
+                           vector<row_col_val<T>> &trips) {
+  this->m = m;
+  this->n = n;
+
   // Sort by column, then row.
   sort(trips.begin(), trips.end(),
       [](const row_col_val<T> &u, const row_col_val<T> &v) {
@@ -44,6 +47,27 @@ SparseMatrix<T>::SparseMatrix(unsigned int m,
 }
 
 template <class T>
+SparseMatrix<T>::SparseMatrix(unsigned int m,
+                              unsigned int n,
+                              vector<row_col_val<T>> &trips) {
+  this->init(m, n, trips);
+}
+
+template <class T>
+SparseMatrix<T>::SparseMatrix(const DenseMatrix<T> &dense) {
+  vector<row_col_val<T>> trips;
+
+  for (int i = 0; i < dense.m; i++) {
+    for (int j = 0; j < dense.n; j++) {
+      if (dense(i, j) != 0.0)
+        trips.push_back(row_col_val<T>(i, j, dense(i, j)));
+    }
+  }
+
+  this->init(dense.m, dense.n, trips);
+}
+
+template <class T>
 DenseMatrix<T> SparseMatrix<T>::mat_mul(const SparseMatrix<T> &that) const {
   assert(this->n == that.m);
 
@@ -63,6 +87,16 @@ DenseMatrix<T> SparseMatrix<T>::mat_mul(const SparseMatrix<T> &that) const {
       }
     }
   }
+
+  return result;
+}
+
+template <class T>
+SparseMatrix<T> SparseMatrix<T>::operator-() {
+  SparseMatrix<T> result(*this);
+
+  for (int i = 0; i < result.value.size(); i++)
+    result.value[i] = -result.value[i];
 
   return result;
 }
