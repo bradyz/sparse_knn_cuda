@@ -54,7 +54,7 @@ void populate_sq_norms(const vector<int> &A_col, const vector<T> &A_val,
 template <class T>
 void coo_to_csr(vector<int> &A_row, vector<int> &A_col, vector<T> &A_val,
                 unsigned int m, cusparseHandle_t handle,
-								int *&row_csr, int *&col_csr, T *&val_csr) {
+                int *&row_csr, int *&col_csr, T *&val_csr) {
   int *row_coo = 0;
 
   check(cudaMalloc((void**) &row_coo, A_row.size() * sizeof(T)),
@@ -85,7 +85,7 @@ void coo_to_csr(vector<int> &A_row, vector<int> &A_col, vector<T> &A_val,
                          m, row_csr, CUSPARSE_INDEX_BASE_ZERO),
         "convert failed");
 
-	check(cudaFree(row_coo), "free coo");
+  check(cudaFree(row_coo), "free coo");
 }
 
 template <class T>
@@ -96,13 +96,13 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
 
   check(cusparseCreate(&handle), "initialization failed");
 
-	int *Q_row_csr = 0;
-	int *Q_col_csr = 0;
-	T *Q_val_csr = 0;
+  int *Q_row_csr = 0;
+  int *Q_col_csr = 0;
+  T *Q_val_csr = 0;
 
-	int *R_row_csr = 0;
-	int *R_col_csr = 0;
-	T *R_val_csr = 0;
+  int *R_row_csr = 0;
+  int *R_col_csr = 0;
+  T *R_val_csr = 0;
 
   coo_to_csr(Q_row, Q_col, Q_val, d, handle, Q_row_csr, Q_col_csr, Q_val_csr);
   coo_to_csr(R_row, R_col, R_val, d, handle, R_row_csr, R_col_csr, R_val_csr);
@@ -122,12 +122,12 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
   check(cusparseSetMatIndexBase(real_sparse_desc, CUSPARSE_INDEX_BASE_ZERO),
         "set 2 failed");
 
-	check(cusparseSetPointerMode(handle, CUSPARSE_POINTER_MODE_HOST),
+  check(cusparseSetPointerMode(handle, CUSPARSE_POINTER_MODE_HOST),
         "set pointer");
-	check(cudaMalloc((void**) &C_row_csr, (m+1) * sizeof(int)),
+  check(cudaMalloc((void**) &C_row_csr, (m+1) * sizeof(int)),
         "malloc row fail");
 
-	check(cusparseXcsrgemmNnz(handle,
+  check(cusparseXcsrgemmNnz(handle,
                             CUSPARSE_OPERATION_TRANSPOSE,
                             CUSPARSE_OPERATION_NON_TRANSPOSE,
                             m, n, d,
@@ -139,12 +139,12 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
   if (C_nnz == -1)
     exit(1);
 
-	check(cudaMalloc((void**) &C_col_csr, C_nnz * sizeof(int)),
+  check(cudaMalloc((void**) &C_col_csr, C_nnz * sizeof(int)),
         "malloc device col");
-	check(cudaMalloc((void**) &C_val_csr, C_nnz * sizeof(T)),
+  check(cudaMalloc((void**) &C_val_csr, C_nnz * sizeof(T)),
         "malloc device val");
 
-	check(cusparseScsrgemm(handle,
+  check(cusparseScsrgemm(handle,
                          CUSPARSE_OPERATION_TRANSPOSE,
                          CUSPARSE_OPERATION_NON_TRANSPOSE,
                          m, n, d,
