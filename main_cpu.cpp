@@ -1,6 +1,6 @@
 #include "sparse_matrix.h"
 #include "dense_matrix.h"
-#include "knn_kernel.h"
+#include "knn_kernel_cpu.h"
 
 #include <iostream>
 #include <vector>
@@ -19,7 +19,7 @@ DenseMatrix<float> get_mat(int m, int n, float sparsity) {
 
   for (int i = 0; i < m; i++) {
     for (int j = 0; j < n; j++) {
-      float prob = rand() / RAND_MAX;
+      float prob = (float) rand() / RAND_MAX;
 
       if (prob < sparsity)
         result.assign(i, j, rand() / RAND_MAX);
