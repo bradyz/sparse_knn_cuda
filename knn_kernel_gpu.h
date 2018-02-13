@@ -6,6 +6,7 @@
 template <class T>
 void knn(std::vector<int>&, std::vector<int>&, std::vector<T>&,
          std::vector<int>&, std::vector<int>&, std::vector<T>&,
-         unsigned int d, unsigned int m, unsigned int n);
+         unsigned int d, unsigned int m, unsigned int n,
+         unsigned int k);
 
 #endif

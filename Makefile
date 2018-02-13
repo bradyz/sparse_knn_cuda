@@ -1,5 +1,5 @@
 NVCC=nvcc
-NVCCFLAGS=-std=c++11 -O3 -lgomp
+NVCCFLAGS=-std=c++11 -O3 -Xcompiler -fopenmp
 
 CXX=g++
 CXXFLAGS=-std=c++11 -Wall -O3
@@ -29,7 +29,7 @@ run_cpu: dense_matrix.o sparse_matrix.o knn_kernel_cpu.o main_cpu.o
 	$(CXX) $(CXXFLAGS) main_cpu.o dense_matrix.o sparse_matrix.o knn_kernel_cpu.o -o main_cpu.out
 
 run_gpu: knn_kernel_gpu.o main_gpu.o
-	$(NVCC) $(NVCCFLAGS) -lcusparse main_gpu.o knn_kernel_gpu.o -o main_gpu.out
+	$(NVCC) $(NVCCFLAGS) -lcusparse -lgomp main_gpu.o knn_kernel_gpu.o -o main_gpu.out
 
 test: dense_matrix.o sparse_matrix.o test.o
 	$(CXX) $(CXXFLAGS) test.o dense_matrix.o sparse_matrix.o -o test.out
