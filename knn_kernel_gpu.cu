@@ -91,18 +91,6 @@ void cpu_sort(const vector<int> &host_row, const vector<int> &host_col,
   }
 }
 
-struct ZipComparator {
-  __host__ __device__
-  inline bool operator() (const thrust::tuple<unsigned int, float> &a,
-                          const thrust::tuple<unsigned int, float> &b) {
-    if(a.head < b.head)
-      return true;
-    else if(a.head == b.head)
-      return a.tail < b.tail;
-    return false;
-  }
-};
-
 template <class T>
 void gpu_sort(const vector<int> &host_row, const vector<int> &host_col,
               const vector<T> &host_val,
