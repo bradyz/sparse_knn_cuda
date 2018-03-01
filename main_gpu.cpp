@@ -64,6 +64,8 @@ void doit() {
     for (int j = 0; j < 10; j++) {
       for (int k = 0; k < 5; k++) {
         int n = sizes[i];
+        int m = n;
+
         int d = dimensions[j];
         float sparsity = sparsities[k];
 
@@ -71,12 +73,15 @@ void doit() {
         vector<int> Q_col, R_col;
         vector<float> Q_val, R_val;
 
-        get_mat(d, n, sparsity, Q_row, Q_col, Q_val);
-        get_mat(d, n, sparsity, R_row, R_col, R_val);
-
         cout << n << " " << d << " " << sparsity << endl;
 
-        knn(Q_row, Q_col, Q_val, R_row, R_col, R_val, d, n, n, k_unused);
+        get_mat(d, m, sparsity, Q_row, Q_col, Q_val);
+        get_mat(d, n, sparsity, R_row, R_col, R_val);
+
+        // print_mat(Q_row, Q_col, Q_val, d, m);
+        // print_mat(R_row, R_col, R_val, d, n);
+
+        knn(Q_row, Q_col, Q_val, R_row, R_col, R_val, d, m, n, k_unused);
       }
     }
   }
