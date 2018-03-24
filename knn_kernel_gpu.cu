@@ -35,6 +35,75 @@ inline void check(cusparseStatus_t status, string error) {
   }
 }
 
+__global__
+void get_col_norms(int *col_csr, float *val_csr, float *sq_norms, int nnz) {
+  int i = blockIdx.x * blockDim.x + threadIdx.x;
+
+  if (i < nnz)
+    atomicAdd(&sq_norms[col_csr[i]], val_csr[i] * val_csr[i]);
+}
+
+__global__
+void add_norms(float *C, float *Q_sq_norms, float *R_sq_norms, int m, int n) {
+  int index = blockIdx.x * blockDim.x + threadIdx.x;
+
+  int i = index / n;
+  int j = index % n;
+
+  // Cuda store column major.
+  if (i < m && j < n)
+    C[i + j * m] = Q_sq_norms[i] - 2.0 * C[i + j * m] + R_sq_norms[j];
+}
+
+__global__
+void iota_fill(int *indices, int m, int n) {
+  int index = blockIdx.x * blockDim.x + threadIdx.x;
+
+  int i = index / n;
+  int j = index % n;
+
+  // Cuda store column major.
+  if (i < m && j < n)
+    indices[i + j * m] = j;
+}
+
+__global__
+void bitonic_mergesort_step(float *C, int *indices,
+                            int split, int away,
+                            int row, int m, int n, int k) {
+  int index = blockIdx.x * blockDim.x + threadIdx.x;
+
+  if (index >= n)
+    return;
+
+  int i_mask = ((1 << 30) - 1) - away;
+  int j_mask = away;
+  int is_inc_mask = split << 1;
+
+  int i = index & i_mask;
+  int j = index | j_mask;
+
+  int is_inc = (index & is_inc_mask) == 0;
+
+  if (index == j)
+    return;
+
+  bool need_swap = false;
+  need_swap |= (is_inc && (C[row + i * m] > C[row + j * m]));
+  need_swap |= (!is_inc && (C[row + i * m] < C[row + j * m]));
+
+  if (need_swap) {
+    float tmp_C = C[row + i * m];
+    int tmp_indices = indices[row + i * m];
+
+    C[row + i * m] = C[row + j * m];
+    C[row + j * m] = tmp_C;
+
+    indices[row + i * m] = indices[row + j * m];
+    indices[row + j * m] = tmp_indices;
+  }
+}
+
 template <class T>
 void sort_by_col_row(vector<row_col_val<T>> &triplets) {
   sort(triplets.begin(), triplets.end(),
@@ -92,29 +161,77 @@ void cpu_sort(const vector<int> &host_row, const vector<int> &host_col,
 }
 
 template <class T>
-void gpu_sort(int k) {
-/*   int m = Q_sq_norms.size(); */
-/*   int n = Q_sq_norms.size(); */
-/*  */
-/*   int val_idx = 0; */
-/*  */
-/* #pragma omp parallel for */
-/*   for (unsigned int i = 0; i < m; i++) { */
-/*     vector<int> idx(n); */
-/*     vector<T> dist(n); */
-/*  */
-    /* cout << omp_get_thread_num() << " " << omp_get_num_threads() << endl; */
-    /* cout << i << " " << m << endl; */
-/*  */
-/*     thrust::device_vector<int> gpu_idx(n); */
-/*     thrust::sequence(gpu_idx.begin(), gpu_idx.end()); */
-/*  */
-/*     thrust::device_vector<T> gpu_dist(dist.begin(), dist.end()); */
-/*  */
-/*     thrust::sort_by_key(gpu_dist.begin(), gpu_dist.end(), gpu_idx.begin()); */
-/*  */
-/*     thrust::copy(gpu_idx.begin(), gpu_idx.end(), &idx[0]); */
-/*   } */
+void gpu_sort(T *C, int m, int n, int k) {
+  int *indices;
+
+  check(cudaMalloc((void**) &indices, m * n * sizeof(int)),
+        "initialize indices");
+
+  iota_fill<<<(m * n + 255) / 256, 256>>>(indices, m, n);
+
+  vector<int> indices_host(m * n, -1);
+  vector<float> C_host(m * n, -1);
+
+  check(cudaMemcpy(&indices_host[0], indices, (size_t) ((m * n) * sizeof(int)),
+        cudaMemcpyDeviceToHost),
+      "copy from failed val asdfasdf");
+
+  for (int i = 0; i < 1; i++) {
+    for (int j = 0; j < n; j++) {
+      cout << indices_host[i + j * m] << " ";
+    }
+    cout << endl;
+  }
+
+  check(cudaMemcpy(&C_host[0], C, (size_t) ((m * n) * sizeof(int)),
+        cudaMemcpyDeviceToHost),
+      "copy from failed val asdfasdf");
+
+  for (int i = 0; i < 1; i++) {
+    for (int j = 0; j < n; j++) {
+      cout << C_host[i + j * m] << " ";
+    }
+    cout << endl;
+  }
+
+  cout << endl;
+
+  for (int row = 0; row < m; row++) {
+    for (int split = 1; split < n; split <<= 1) {
+      for (int away = split; away >= 1; away >>= 1) {
+        bitonic_mergesort_step<<<(n + 255) / 256, 256>>>(C, indices, split, away,
+                                                         row, m, n, k);
+
+        check(cudaMemcpy(&indices_host[0], indices, (size_t) ((m * n) * sizeof(int)),
+              cudaMemcpyDeviceToHost),
+            "copy from failed val asdfasdf");
+
+        for (int i = 0; i < 1; i++) {
+          for (int j = 0; j < n; j++) {
+            cout << indices_host[i + j * m] << " ";
+          }
+          cout << endl;
+        }
+
+        check(cudaMemcpy(&C_host[0], C, (size_t) ((m * n) * sizeof(int)),
+              cudaMemcpyDeviceToHost),
+            "copy from failed val asdfasdf");
+
+        for (int i = 0; i < 1; i++) {
+          for (int j = 0; j < n; j++) {
+            cout << C_host[i + j * m] << " ";
+          }
+          cout << endl;
+        }
+      }
+
+      cout << endl;
+    }
+
+    exit(1);
+  }
+
+  // DEBUG.
 }
 
 template <class T>
@@ -228,26 +345,6 @@ T* inner_product(
   return C;
 }
 
-__global__
-void get_col_norms(int *col_csr, float *val_csr, float *sq_norms, int nnz) {
-    int i = blockIdx.x * blockDim.x + threadIdx.x;
-
-    if (i < nnz)
-      atomicAdd(&sq_norms[col_csr[i]], val_csr[i] * val_csr[i]);
-}
-
-__global__
-void add_norms(float *C, float *Q_sq_norms, float *R_sq_norms, int m, int n) {
-    int index = blockIdx.x * blockDim.x + threadIdx.x;
-
-    int i = index / n;
-    int j = index % n;
-
-    // Cuda store column major.
-    if (i < m && j < n)
-      C[i + j * m] = Q_sq_norms[i] - 2.0 * C[i + j * m] + R_sq_norms[j];
-}
-
 template <class T>
 void add_sq_norms(int *Q_col_csr, T *Q_val_csr, int Q_nnz,
                   int *R_col_csr, T *R_val_csr, int R_nnz,
@@ -300,7 +397,7 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
 
   auto norm_done = chrono::high_resolution_clock::now();
 
-  /* gpu_sort(host_row, host_col, host_val, Q_sq_norms, R_sq_norms, k); */
+  gpu_sort(C, m, n, k);
 
   auto sort_done = chrono::high_resolution_clock::now();
 
