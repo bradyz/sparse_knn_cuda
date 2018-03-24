@@ -1,4 +1,4 @@
-#include "knn_kernel_gpu.h"
+#include "../include/spgsknn.hpp"
 
 #include <iostream>
 #include <numeric>
@@ -58,11 +58,11 @@ void doit() {
   int dimensions[] = {16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192};
   float sparsities[] = {0.001, 0.01, 0.1, 0.5, 1.0};
 
-  // sizes[0] = 512;
-  // dimensions[0] = 512;
-  // sparsities[0] = 1.0;
+  sizes[0] = 8;
+  dimensions[0] = 8;
+  sparsities[0] = 1.0;
 
-  int k_unused = 0;
+  int k_unused = 4;
 
   for (int i = 0; i < 4; i++) {
     for (int j = 0; j < 10; j++) {
@@ -85,7 +85,21 @@ void doit() {
         // print_mat(Q_row, Q_col, Q_val, d, m);
         // print_mat(R_row, R_col, R_val, d, n);
 
-        knn(Q_row, Q_col, Q_val, R_row, R_col, R_val, d, m, n, k_unused);
+        vector<float> distances;
+        vector<int> indices;
+
+        spgsknn(d, m, n, k_unused,
+                Q_row, Q_col, Q_val, R_row, R_col, R_val,
+                distances, indices);
+
+        for (int i = 0; i < m; i++) {
+          for (int j = 1; j < k; j++) {
+            if (distances[i + j * m] < distances[i + (j-1) * m]) {
+              cout << "break" << endl;
+              exit(1);
+            }
+          }
+        }
       }
     }
   }
