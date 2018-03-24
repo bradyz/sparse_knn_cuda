@@ -68,12 +68,14 @@ void iota_fill(int *indices, int m, int n) {
 }
 
 __global__
-void bitonic_mergesort_step(float *C, int *indices,
-                            int split, int away,
-                            int row, int m, int n, int k) {
+void bitonic_mergesort_step(float *C, int *indices, int split, int away,
+                            int m, int n, int k) {
   int index = blockIdx.x * blockDim.x + threadIdx.x;
+  int row = blockIdx.y * blockDim.y + threadIdx.y;
 
   if (index >= n)
+    return;
+  else if (row >= m)
     return;
 
   int i_mask = ((1 << 30) - 1) - away;
@@ -161,7 +163,7 @@ void cpu_sort(const vector<int> &host_row, const vector<int> &host_col,
 }
 
 template <class T>
-void gpu_sort(T *C, int m, int n, int k) {
+int* gpu_sort(T *C, int m, int n, int k) {
   int *indices;
 
   check(cudaMalloc((void**) &indices, m * n * sizeof(int)),
@@ -169,69 +171,16 @@ void gpu_sort(T *C, int m, int n, int k) {
 
   iota_fill<<<(m * n + 255) / 256, 256>>>(indices, m, n);
 
-  vector<int> indices_host(m * n, -1);
-  vector<float> C_host(m * n, -1);
+  dim3 blocks(32, 32);
+  dim3 grids;
+  grids.x = (n + blocks.x - 1) / blocks.x;
+  grids.y = (m + blocks.y - 1) / blocks.y;
 
-  check(cudaMemcpy(&indices_host[0], indices, (size_t) ((m * n) * sizeof(int)),
-        cudaMemcpyDeviceToHost),
-      "copy from failed val asdfasdf");
+  for (int split = 1; split < n; split <<= 1)
+    for (int away = split; away >= 1; away >>= 1)
+      bitonic_mergesort_step<<<grids, blocks>>>(C, indices, split, away, m, n, k);
 
-  for (int i = 0; i < 1; i++) {
-    for (int j = 0; j < n; j++) {
-      cout << indices_host[i + j * m] << " ";
-    }
-    cout << endl;
-  }
-
-  check(cudaMemcpy(&C_host[0], C, (size_t) ((m * n) * sizeof(int)),
-        cudaMemcpyDeviceToHost),
-      "copy from failed val asdfasdf");
-
-  for (int i = 0; i < 1; i++) {
-    for (int j = 0; j < n; j++) {
-      cout << C_host[i + j * m] << " ";
-    }
-    cout << endl;
-  }
-
-  cout << endl;
-
-  for (int row = 0; row < m; row++) {
-    for (int split = 1; split < n; split <<= 1) {
-      for (int away = split; away >= 1; away >>= 1) {
-        bitonic_mergesort_step<<<(n + 255) / 256, 256>>>(C, indices, split, away,
-                                                         row, m, n, k);
-
-        check(cudaMemcpy(&indices_host[0], indices, (size_t) ((m * n) * sizeof(int)),
-              cudaMemcpyDeviceToHost),
-            "copy from failed val asdfasdf");
-
-        for (int i = 0; i < 1; i++) {
-          for (int j = 0; j < n; j++) {
-            cout << indices_host[i + j * m] << " ";
-          }
-          cout << endl;
-        }
-
-        check(cudaMemcpy(&C_host[0], C, (size_t) ((m * n) * sizeof(int)),
-              cudaMemcpyDeviceToHost),
-            "copy from failed val asdfasdf");
-
-        for (int i = 0; i < 1; i++) {
-          for (int j = 0; j < n; j++) {
-            cout << C_host[i + j * m] << " ";
-          }
-          cout << endl;
-        }
-      }
-
-      cout << endl;
-    }
-
-    exit(1);
-  }
-
-  // DEBUG.
+  return indices;
 }
 
 template <class T>
@@ -382,7 +331,7 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
   coo_to_csr(Q_row, Q_col, Q_val, d, handle, Q_row_csr, Q_col_csr, Q_val_csr);
   coo_to_csr(R_row, R_col, R_val, d, handle, R_row_csr, R_col_csr, R_val_csr);
 
-  auto conversion_done = chrono::high_resolution_clock::now();
+  auto conv_done = chrono::high_resolution_clock::now();
 
   T *C = inner_product(Q_row_csr, Q_col_csr, Q_val_csr, Q_val.size(),
                        R_row_csr, R_col_csr, R_val_csr, R_val.size(),
@@ -397,15 +346,22 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
 
   auto norm_done = chrono::high_resolution_clock::now();
 
-  gpu_sort(C, m, n, k);
+  int *indices = gpu_sort(C, m, n, k);
 
   auto sort_done = chrono::high_resolution_clock::now();
 
   vector<float> C_host(m * n);
+  vector<int> indices_host(m * n);
 
   check(cudaMemcpy(&C_host[0], C, (size_t) ((m * n) * sizeof(T)),
                    cudaMemcpyDeviceToHost),
         "copy from failed val asdfasdf");
+
+  check(cudaMemcpy(&indices_host[0], indices, (size_t) ((m * n) * sizeof(T)),
+                   cudaMemcpyDeviceToHost),
+        "copy from failed val asdfasdf");
+  check(cudaFree(C), "free C");
+  check(cudaFree(indices), "free indices");
 
   /* cout << m << " " << n << endl; */
   /* for (int i = 0; i < m; i++) { */
@@ -415,12 +371,23 @@ void knn(vector<int> &Q_row, vector<int> &Q_col, vector<T> &Q_val,
   /*   cout << endl; */
   /* } */
 
+  for (int i = 0; i < m; i++) {
+    for (int j = 1; j < n; j++) {
+      if (C_host[i + j * m] < C_host[i + (j-1) * m]) {
+        cout << "break" << endl;
+        exit(1);
+      }
+    }
+  }
+
   float total = chrono::duration_cast<chrono::milliseconds>(sort_done-start).count();
-  float mult = chrono::duration_cast<chrono::milliseconds>(mult_done-start).count();
+  float conv = chrono::duration_cast<chrono::milliseconds>(conv_done-start).count();
+  float mult = chrono::duration_cast<chrono::milliseconds>(mult_done-conv_done).count();
   float norm = chrono::duration_cast<chrono::milliseconds>(norm_done-mult_done).count();
   float sort = chrono::duration_cast<chrono::milliseconds>(sort_done-norm_done).count();
 
   cout << "total: " << total / 1000.0 << endl;
+  cout << "conv: " << conv / 1000.0 << endl;
   cout << "mult: " << mult / 1000.0 << endl;
   cout << "norm: " << norm / 1000.0 << endl;
   cout << "sort: " << sort / 1000.0 << endl;

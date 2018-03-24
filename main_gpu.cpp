@@ -58,9 +58,9 @@ void doit() {
   int dimensions[] = {16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192};
   float sparsities[] = {0.001, 0.01, 0.1, 0.5, 1.0};
 
-  sizes[0] = 8;
-  dimensions[0] = 4;
-  sparsities[0] = 1.0;
+  // sizes[0] = 512;
+  // dimensions[0] = 512;
+  // sparsities[0] = 1.0;
 
   int k_unused = 0;
 
