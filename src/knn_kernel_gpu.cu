@@ -7,8 +7,6 @@
 #include <cuda_runtime.h>
 #include "cusparse.h"
 
-#include <omp.h>
-
 using namespace std;
 
 inline void check(cudaError_t status, string error) {
@@ -196,7 +194,7 @@ T* inner_product(
 
   int C_nnz = -1;
 
-  cusparseMatDescr_t real_sparse_desc = 0;
+  cusparseMatDescr_t real_sparse_desc;
 
   check(cusparseCreateMatDescr(&real_sparse_desc), "create");
   check(cusparseSetMatType(real_sparse_desc, CUSPARSE_MATRIX_TYPE_GENERAL), "set 1");
@@ -250,13 +248,16 @@ void add_sq_norms(int *Q_col_csr, T *Q_val_csr, int Q_nnz,
   T *Q_sq_norms = 0;
   T *R_sq_norms = 0;
 
-  check(cudaMalloc((void**) &Q_sq_norms, m * sizeof(T)), "coo malloc");
-  check(cudaMalloc((void**) &R_sq_norms, n * sizeof(T)), "coo malloc");
+  check(cudaMalloc((void**) &Q_sq_norms, m * sizeof(T)), "square norms malloc");
+  check(cudaMalloc((void**) &R_sq_norms, n * sizeof(T)), "square norms malloc");
 
   get_col_norms<<<(Q_nnz + 255) / 256, 256>>>(Q_col_csr, Q_val_csr, Q_sq_norms, Q_nnz);
   get_col_norms<<<(R_nnz + 255) / 256, 256>>>(R_col_csr, R_val_csr, R_sq_norms, R_nnz);
 
   add_norms<<<(m * n + 255) / 256, 256>>>(C, Q_sq_norms, R_sq_norms, m, n);
+
+  check(cudaFree(Q_sq_norms), "free square norms");
+  check(cudaFree(R_sq_norms), "free square norms");
 }
 
 template <class T>
@@ -265,7 +266,7 @@ void spgsknn(unsigned int d, unsigned int m, unsigned int n, unsigned int k,
              vector<int> &R_row, vector<int> &R_col, vector<T> &R_val,
              vector<T> &distances,
              vector<int> &indices) {
-  cusparseHandle_t handle = 0;
+  cusparseHandle_t handle;
 
   check(cusparseCreate(&handle), "initialization");
 
@@ -296,6 +297,14 @@ void spgsknn(unsigned int d, unsigned int m, unsigned int n, unsigned int k,
       distances_device, m, n, handle);
 
   auto norm_done = chrono::high_resolution_clock::now();
+
+  check(cudaFree(Q_col_csr), "free csr");
+  check(cudaFree(Q_val_csr), "free csr");
+  check(cudaFree(Q_row_csr), "free csr");
+
+  check(cudaFree(R_col_csr), "free csr");
+  check(cudaFree(R_val_csr), "free csr");
+  check(cudaFree(R_row_csr), "free csr");
 
   int *indices_device = bitonic_mergesort(distances_device, m, n);
 

@@ -1,0 +1,7700 @@
+512 16 8 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 16 64 0.001
+total: 0.002
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 16 256 0.001
+total: 0.002
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 16 512 0.001
+total: 0.002
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0
+512 16 8 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 16 64 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 16 256 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 16 512 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 16 8 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 16 64 0.1
+total: 0.004
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 16 256 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 16 512 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 16 8 0.5
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 16 64 0.5
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 16 256 0.5
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 16 512 0.5
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 16 8 1
+total: 0.007
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 16 64 1
+total: 0.007
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 16 256 1
+total: 0.008
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.002
+512 16 512 1
+total: 0.013
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0.005
+select: 0.002
+512 32 8 0.001
+total: 0.002
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 32 64 0.001
+total: 0.002
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 32 256 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 32 512 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 32 8 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 64 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 256 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 512 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 8 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 64 0.1
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 32 256 0.1
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 32 512 0.1
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 32 8 0.5
+total: 0.006
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 32 64 0.5
+total: 0.006
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 32 256 0.5
+total: 0.007
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 32 512 0.5
+total: 0.007
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 32 8 1
+total: 0.008
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.001
+512 32 64 1
+total: 0.009
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.001
+512 32 256 1
+total: 0.012
+conv: 0.004
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.002
+512 32 512 1
+total: 0.009
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.002
+512 64 8 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 64 64 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 64 256 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 512 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 8 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 64 0.01
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 256 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 512 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 64 8 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 64 64 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 64 256 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 64 512 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 64 8 0.5
+total: 0.007
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 64 64 0.5
+total: 0.007
+conv: 0.001
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 64 256 0.5
+total: 0.013
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.002
+512 64 512 0.5
+total: 0.007
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 64 8 1
+total: 0.009
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.002
+512 64 64 1
+total: 0.01
+conv: 0
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.001
+512 64 256 1
+total: 0.01
+conv: 0
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.002
+512 64 512 1
+total: 0.01
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.002
+512 128 8 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0
+512 128 64 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 256 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 512 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 8 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 64 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 256 0.01
+total: 0.011
+conv: 0.002
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.001
+512 128 512 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 128 8 0.1
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 128 64 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 128 256 0.1
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 128 512 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 128 8 0.5
+total: 0.006
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 128 64 0.5
+total: 0.007
+conv: 0.001
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 128 256 0.5
+total: 0.007
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 128 512 0.5
+total: 0.007
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 128 8 1
+total: 0.016
+conv: 0
+mult: 0.011
+norm: 0
+sort: 0.002
+select: 0.001
+512 128 64 1
+total: 0.014
+conv: 0
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.001
+512 128 256 1
+total: 0.013
+conv: 0
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.002
+512 128 512 1
+total: 0.014
+conv: 0
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.002
+512 256 8 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 256 64 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 256 256 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 256 512 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 256 8 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 256 64 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 256 256 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 256 512 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 256 8 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 256 64 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 256 256 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 256 512 0.1
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 256 8 0.5
+total: 0.008
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 256 64 0.5
+total: 0.008
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 256 256 0.5
+total: 0.008
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.002
+512 256 512 0.5
+total: 0.01
+conv: 0.003
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.002
+512 256 8 1
+total: 0.02
+conv: 0.001
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.001
+512 256 64 1
+total: 0.02
+conv: 0.001
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.001
+512 256 256 1
+total: 0.02
+conv: 0.001
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.002
+512 256 512 1
+total: 0.024
+conv: 0.004
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.002
+512 512 8 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 512 64 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 512 256 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 512 512 0.001
+total: 0.003
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 512 8 0.01
+total: 0.004
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 512 64 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 512 256 0.01
+total: 0.007
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0.002
+select: 0.002
+512 512 512 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 512 8 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 512 64 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 512 256 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 512 512 0.1
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 512 8 0.5
+total: 0.012
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.001
+512 512 64 0.5
+total: 0.016
+conv: 0.004
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.002
+512 512 256 0.5
+total: 0.013
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.002
+512 512 512 0.5
+total: 0.012
+conv: 0.001
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.002
+512 512 8 1
+total: 0.038
+conv: 0.002
+mult: 0.034
+norm: 0
+sort: 0
+select: 0.001
+512 512 64 1
+total: 0.038
+conv: 0.002
+mult: 0.033
+norm: 0
+sort: 0
+select: 0.001
+512 512 256 1
+total: 0.039
+conv: 0.002
+mult: 0.034
+norm: 0
+sort: 0
+select: 0.002
+512 512 512 1
+total: 0.038
+conv: 0.002
+mult: 0.033
+norm: 0
+sort: 0
+select: 0.002
+512 1024 8 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 1024 64 0.001
+total: 0.008
+conv: 0.003
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 1024 256 0.001
+total: 0.003
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.001
+512 1024 512 0.001
+total: 0.004
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.002
+512 1024 8 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 1024 64 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 1024 256 0.01
+total: 0.012
+conv: 0.002
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.002
+512 1024 512 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 1024 8 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 1024 64 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 1024 256 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 1024 512 0.1
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.002
+512 1024 8 0.5
+total: 0.022
+conv: 0.003
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.001
+512 1024 64 0.5
+total: 0.023
+conv: 0.002
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.001
+512 1024 256 0.5
+total: 0.02
+conv: 0.002
+mult: 0.015
+norm: 0
+sort: 0
+select: 0.002
+512 1024 512 0.5
+total: 0.021
+conv: 0.002
+mult: 0.015
+norm: 0
+sort: 0
+select: 0.002
+512 1024 8 1
+total: 0.072
+conv: 0.003
+mult: 0.065
+norm: 0
+sort: 0
+select: 0.001
+512 1024 64 1
+total: 0.072
+conv: 0.003
+mult: 0.065
+norm: 0
+sort: 0
+select: 0.001
+512 1024 256 1
+total: 0.072
+conv: 0.003
+mult: 0.065
+norm: 0
+sort: 0
+select: 0.002
+512 1024 512 1
+total: 0.072
+conv: 0.003
+mult: 0.065
+norm: 0
+sort: 0
+select: 0.002
+512 2048 8 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 2048 64 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 2048 256 0.001
+total: 0.004
+conv: 0
+mult: 0
+norm: 0
+sort: 0
+select: 0.002
+512 2048 512 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 2048 8 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 2048 64 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 2048 256 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 2048 512 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 2048 8 0.1
+total: 0.007
+conv: 0.001
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.001
+512 2048 64 0.1
+total: 0.007
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.001
+512 2048 256 0.1
+total: 0.007
+conv: 0.001
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 2048 512 0.1
+total: 0.007
+conv: 0.001
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.002
+512 2048 8 0.5
+total: 0.04
+conv: 0.003
+mult: 0.03
+norm: 0.002
+sort: 0
+select: 0.001
+512 2048 64 0.5
+total: 0.035
+conv: 0.003
+mult: 0.028
+norm: 0
+sort: 0
+select: 0.001
+512 2048 256 0.5
+total: 0.035
+conv: 0.003
+mult: 0.028
+norm: 0
+sort: 0
+select: 0.002
+512 2048 512 0.5
+total: 0.035
+conv: 0.003
+mult: 0.028
+norm: 0
+sort: 0
+select: 0.002
+512 2048 8 1
+total: 0.134
+conv: 0.005
+mult: 0.125
+norm: 0
+sort: 0
+select: 0.001
+512 2048 64 1
+total: 0.139
+conv: 0.009
+mult: 0.126
+norm: 0
+sort: 0
+select: 0.001
+512 2048 256 1
+total: 0.144
+conv: 0.005
+mult: 0.131
+norm: 0.001
+sort: 0.003
+select: 0.002
+512 2048 512 1
+total: 0.135
+conv: 0.005
+mult: 0.126
+norm: 0
+sort: 0
+select: 0.002
+512 4096 8 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 4096 64 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 4096 256 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 4096 512 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 4096 8 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 4096 64 0.01
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 4096 256 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 4096 512 0.01
+total: 0.005
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 4096 8 0.1
+total: 0.01
+conv: 0.001
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.001
+512 4096 64 0.1
+total: 0.01
+conv: 0.001
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.001
+512 4096 256 0.1
+total: 0.011
+conv: 0.001
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.002
+512 4096 512 0.1
+total: 0.011
+conv: 0.002
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.002
+512 4096 8 0.5
+total: 0.062
+conv: 0.005
+mult: 0.053
+norm: 0
+sort: 0
+select: 0.001
+512 4096 64 0.5
+total: 0.063
+conv: 0.005
+mult: 0.054
+norm: 0
+sort: 0
+select: 0.001
+512 4096 256 0.5
+total: 0.062
+conv: 0.005
+mult: 0.053
+norm: 0
+sort: 0
+select: 0.002
+512 4096 512 0.5
+total: 0.062
+conv: 0.005
+mult: 0.053
+norm: 0
+sort: 0
+select: 0.002
+512 4096 8 1
+total: 0.263
+conv: 0.008
+mult: 0.25
+norm: 0
+sort: 0.001
+select: 0.001
+512 4096 64 1
+total: 0.264
+conv: 0.008
+mult: 0.251
+norm: 0
+sort: 0.001
+select: 0.001
+512 4096 256 1
+total: 0.262
+conv: 0.008
+mult: 0.248
+norm: 0
+sort: 0.001
+select: 0.002
+512 4096 512 1
+total: 0.263
+conv: 0.008
+mult: 0.25
+norm: 0
+sort: 0.001
+select: 0.002
+512 8192 8 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 8192 64 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.001
+512 8192 256 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 8192 512 0.001
+total: 0.004
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.002
+512 8192 8 0.01
+total: 0.005
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 8192 64 0.01
+total: 0.006
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.001
+512 8192 256 0.01
+total: 0.007
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.003
+512 8192 512 0.01
+total: 0.01
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.003
+512 8192 8 0.1
+total: 0.016
+conv: 0.003
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.001
+512 8192 64 0.1
+total: 0.017
+conv: 0.003
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.001
+512 8192 256 0.1
+total: 0.017
+conv: 0.004
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.002
+512 8192 512 0.1
+total: 0.017
+conv: 0.003
+mult: 0.01
+norm: 0
+sort: 0
+select: 0.002
+512 8192 8 0.5
+total: 0.157
+conv: 0.01
+mult: 0.142
+norm: 0.001
+sort: 0.001
+select: 0.001
+512 8192 64 0.5
+total: 0.162
+conv: 0.012
+mult: 0.145
+norm: 0.001
+sort: 0.001
+select: 0.001
+512 8192 256 0.5
+total: 0.15
+conv: 0.008
+mult: 0.136
+norm: 0.001
+sort: 0.001
+select: 0.002
+512 8192 512 0.5
+total: 0.13
+conv: 0.009
+mult: 0.116
+norm: 0.001
+sort: 0.001
+select: 0.002
+512 8192 8 1
+total: 0.52
+conv: 0.015
+mult: 0.499
+norm: 0.001
+sort: 0.002
+select: 0.001
+512 8192 64 1
+total: 0.524
+conv: 0.015
+mult: 0.503
+norm: 0.001
+sort: 0.002
+select: 0.001
+512 8192 256 1
+total: 0.521
+conv: 0.017
+mult: 0.498
+norm: 0.001
+sort: 0.002
+select: 0.002
+512 8192 512 1
+total: 0.531
+conv: 0.015
+mult: 0.508
+norm: 0.001
+sort: 0.002
+select: 0.002
+1024 16 8 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.003
+1024 16 64 0.001
+total: 0.013
+conv: 0
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.004
+1024 16 256 0.001
+total: 0.009
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.004
+1024 16 512 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.005
+1024 16 1024 0.001
+total: 0.009
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.004
+1024 16 8 0.01
+total: 0.011
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.006
+1024 16 64 0.01
+total: 0.01
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.006
+1024 16 256 0.01
+total: 0.011
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.006
+1024 16 512 0.01
+total: 0.012
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.006
+1024 16 1024 0.01
+total: 0.012
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.007
+1024 16 8 0.1
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 16 64 0.1
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 16 256 0.1
+total: 0.015
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 16 512 0.1
+total: 0.017
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.013
+1024 16 1024 0.1
+total: 0.018
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.014
+1024 16 8 0.5
+total: 0.022
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.013
+1024 16 64 0.5
+total: 0.021
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0.001
+select: 0.013
+1024 16 256 0.5
+total: 0.022
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.014
+1024 16 512 0.5
+total: 0.024
+conv: 0.001
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.015
+1024 16 1024 0.5
+total: 0.024
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.015
+1024 16 8 1
+total: 0.026
+conv: 0.001
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.014
+1024 16 64 1
+total: 0.03
+conv: 0
+mult: 0.015
+norm: 0
+sort: 0
+select: 0.011
+1024 16 256 1
+total: 0.022
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 16 512 1
+total: 0.022
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 16 1024 1
+total: 0.023
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.013
+1024 32 8 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 32 64 0.001
+total: 0.006
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.003
+1024 32 256 0.001
+total: 0.011
+conv: 0.004
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 32 512 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 32 1024 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.005
+1024 32 8 0.01
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 32 64 0.01
+total: 0.01
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 32 256 0.01
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 32 512 0.01
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 32 1024 0.01
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 32 8 0.1
+total: 0.016
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 32 64 0.1
+total: 0.022
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 32 256 0.1
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 32 512 0.1
+total: 0.019
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.013
+1024 32 1024 0.1
+total: 0.021
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.014
+1024 32 8 0.5
+total: 0.022
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.014
+1024 32 64 0.5
+total: 0.027
+conv: 0.001
+mult: 0.01
+norm: 0
+sort: 0.001
+select: 0.013
+1024 32 256 0.5
+total: 0.023
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.013
+1024 32 512 0.5
+total: 0.022
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.014
+1024 32 1024 0.5
+total: 0.024
+conv: 0
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.014
+1024 32 8 1
+total: 0.035
+conv: 0
+mult: 0.018
+norm: 0
+sort: 0.001
+select: 0.013
+1024 32 64 1
+total: 0.035
+conv: 0
+mult: 0.018
+norm: 0
+sort: 0
+select: 0.013
+1024 32 256 1
+total: 0.032
+conv: 0.001
+mult: 0.018
+norm: 0
+sort: 0
+select: 0.011
+1024 32 512 1
+total: 0.034
+conv: 0
+mult: 0.017
+norm: 0.003
+sort: 0
+select: 0.012
+1024 32 1024 1
+total: 0.03
+conv: 0
+mult: 0.015
+norm: 0
+sort: 0
+select: 0.013
+1024 64 8 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 64 64 0.001
+total: 0.007
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 64 256 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.005
+1024 64 512 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.004
+1024 64 1024 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.005
+1024 64 8 0.01
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 64 64 0.01
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 64 256 0.01
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 64 512 0.01
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 64 1024 0.01
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 64 8 0.1
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 64 64 0.1
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 64 256 0.1
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 64 512 0.1
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 64 1024 0.1
+total: 0.017
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.013
+1024 64 8 0.5
+total: 0.022
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 64 64 0.5
+total: 0.022
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 64 256 0.5
+total: 0.022
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.011
+1024 64 512 0.5
+total: 0.023
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.012
+1024 64 1024 0.5
+total: 0.023
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.013
+1024 64 8 1
+total: 0.03
+conv: 0
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.011
+1024 64 64 1
+total: 0.031
+conv: 0
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.011
+1024 64 256 1
+total: 0.03
+conv: 0
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.011
+1024 64 512 1
+total: 0.031
+conv: 0
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.012
+1024 64 1024 1
+total: 0.038
+conv: 0
+mult: 0.018
+norm: 0.003
+sort: 0
+select: 0.015
+1024 128 8 0.001
+total: 0.01
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.006
+1024 128 64 0.001
+total: 0.01
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.006
+1024 128 256 0.001
+total: 0.01
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.006
+1024 128 512 0.001
+total: 0.011
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.007
+1024 128 1024 0.001
+total: 0.011
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.007
+1024 128 8 0.01
+total: 0.016
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.012
+1024 128 64 0.01
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.012
+1024 128 256 0.01
+total: 0.016
+conv: 0.001
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.01
+1024 128 512 0.01
+total: 0.016
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.013
+1024 128 1024 0.01
+total: 0.016
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.013
+1024 128 8 0.1
+total: 0.021
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.014
+1024 128 64 0.1
+total: 0.019
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.012
+1024 128 256 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 128 512 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 128 1024 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 128 8 0.5
+total: 0.026
+conv: 0
+mult: 0.012
+norm: 0
+sort: 0
+select: 0.011
+1024 128 64 0.5
+total: 0.022
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 128 256 0.5
+total: 0.026
+conv: 0.001
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.014
+1024 128 512 0.5
+total: 0.028
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.014
+1024 128 1024 0.5
+total: 0.026
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.015
+1024 128 8 1
+total: 0.052
+conv: 0.001
+mult: 0.035
+norm: 0
+sort: 0
+select: 0.013
+1024 128 64 1
+total: 0.055
+conv: 0.001
+mult: 0.037
+norm: 0
+sort: 0
+select: 0.014
+1024 128 256 1
+total: 0.051
+conv: 0.001
+mult: 0.035
+norm: 0
+sort: 0
+select: 0.012
+1024 128 512 1
+total: 0.047
+conv: 0.003
+mult: 0.03
+norm: 0
+sort: 0
+select: 0.012
+1024 128 1024 1
+total: 0.048
+conv: 0.001
+mult: 0.032
+norm: 0
+sort: 0
+select: 0.013
+1024 256 8 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.005
+1024 256 64 0.001
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 256 256 0.001
+total: 0.008
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.006
+1024 256 512 0.001
+total: 0.01
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 256 1024 0.001
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 256 8 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 256 64 0.01
+total: 0.014
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 256 256 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 256 512 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 256 1024 0.01
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.012
+1024 256 8 0.1
+total: 0.02
+conv: 0.003
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 256 64 0.1
+total: 0.016
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 256 256 0.1
+total: 0.016
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 256 512 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 256 1024 0.1
+total: 0.022
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 256 8 0.5
+total: 0.028
+conv: 0.001
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.011
+1024 256 64 0.5
+total: 0.029
+conv: 0.001
+mult: 0.015
+norm: 0
+sort: 0
+select: 0.011
+1024 256 256 0.5
+total: 0.028
+conv: 0.001
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.011
+1024 256 512 0.5
+total: 0.029
+conv: 0.001
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.012
+1024 256 1024 0.5
+total: 0.033
+conv: 0.001
+mult: 0.017
+norm: 0
+sort: 0
+select: 0.013
+1024 256 8 1
+total: 0.076
+conv: 0.002
+mult: 0.061
+norm: 0
+sort: 0
+select: 0.011
+1024 256 64 1
+total: 0.072
+conv: 0.002
+mult: 0.057
+norm: 0
+sort: 0
+select: 0.011
+1024 256 256 1
+total: 0.08
+conv: 0.01
+mult: 0.057
+norm: 0
+sort: 0
+select: 0.011
+1024 256 512 1
+total: 0.073
+conv: 0.002
+mult: 0.058
+norm: 0
+sort: 0
+select: 0.012
+1024 256 1024 1
+total: 0.073
+conv: 0.002
+mult: 0.058
+norm: 0
+sort: 0
+select: 0.012
+1024 512 8 0.001
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 512 64 0.001
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 512 256 0.001
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 512 512 0.001
+total: 0.012
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 512 1024 0.001
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 512 8 0.01
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 512 64 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 512 256 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 512 512 0.01
+total: 0.016
+conv: 0.001
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.012
+1024 512 1024 0.01
+total: 0.022
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 512 8 0.1
+total: 0.017
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.011
+1024 512 64 0.1
+total: 0.016
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 512 256 0.1
+total: 0.024
+conv: 0.003
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 512 512 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 512 1024 0.1
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 512 8 0.5
+total: 0.042
+conv: 0.003
+mult: 0.026
+norm: 0
+sort: 0
+select: 0.011
+1024 512 64 0.5
+total: 0.043
+conv: 0.003
+mult: 0.025
+norm: 0
+sort: 0.003
+select: 0.011
+1024 512 256 0.5
+total: 0.042
+conv: 0.003
+mult: 0.026
+norm: 0
+sort: 0
+select: 0.011
+1024 512 512 0.5
+total: 0.044
+conv: 0.005
+mult: 0.025
+norm: 0
+sort: 0
+select: 0.012
+1024 512 1024 0.5
+total: 0.043
+conv: 0.003
+mult: 0.026
+norm: 0
+sort: 0
+select: 0.012
+1024 512 8 1
+total: 0.127
+conv: 0.003
+mult: 0.111
+norm: 0
+sort: 0
+select: 0.011
+1024 512 64 1
+total: 0.134
+conv: 0.003
+mult: 0.117
+norm: 0
+sort: 0.001
+select: 0.011
+1024 512 256 1
+total: 0.128
+conv: 0.003
+mult: 0.111
+norm: 0
+sort: 0
+select: 0.011
+1024 512 512 1
+total: 0.128
+conv: 0.003
+mult: 0.111
+norm: 0
+sort: 0
+select: 0.012
+1024 512 1024 1
+total: 0.132
+conv: 0.004
+mult: 0.114
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 8 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 1024 64 0.001
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.008
+1024 1024 256 0.001
+total: 0.011
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.009
+1024 1024 512 0.001
+total: 0.019
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0.002
+select: 0.009
+1024 1024 1024 0.001
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 8 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.01
+1024 1024 64 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 256 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 512 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 1024 0.01
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 8 0.1
+total: 0.018
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 64 0.1
+total: 0.018
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 256 0.1
+total: 0.018
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 512 0.1
+total: 0.019
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 1024 0.1
+total: 0.019
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 8 0.5
+total: 0.064
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0.001
+select: 0.011
+1024 1024 64 0.5
+total: 0.07
+conv: 0.003
+mult: 0.053
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 256 0.5
+total: 0.067
+conv: 0.008
+mult: 0.046
+norm: 0
+sort: 0
+select: 0.011
+1024 1024 512 0.5
+total: 0.064
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 1024 0.5
+total: 0.064
+conv: 0.003
+mult: 0.046
+norm: 0
+sort: 0
+select: 0.012
+1024 1024 8 1
+total: 0.24
+conv: 0.005
+mult: 0.219
+norm: 0
+sort: 0.001
+select: 0.013
+1024 1024 64 1
+total: 0.24
+conv: 0.005
+mult: 0.221
+norm: 0
+sort: 0.001
+select: 0.011
+1024 1024 256 1
+total: 0.238
+conv: 0.006
+mult: 0.218
+norm: 0
+sort: 0.001
+select: 0.011
+1024 1024 512 1
+total: 0.238
+conv: 0.006
+mult: 0.218
+norm: 0
+sort: 0.001
+select: 0.012
+1024 1024 1024 1
+total: 0.238
+conv: 0.005
+mult: 0.218
+norm: 0
+sort: 0.001
+select: 0.012
+1024 2048 8 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 2048 64 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 2048 256 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 2048 512 0.001
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 2048 1024 0.001
+total: 0.022
+conv: 0.005
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 8 0.01
+total: 0.014
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 64 0.01
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 256 0.01
+total: 0.015
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 512 0.01
+total: 0.018
+conv: 0.001
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 1024 0.01
+total: 0.016
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.012
+1024 2048 8 0.1
+total: 0.022
+conv: 0.001
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 64 0.1
+total: 0.022
+conv: 0.001
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 256 0.1
+total: 0.023
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.011
+1024 2048 512 0.1
+total: 0.023
+conv: 0.002
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 2048 1024 0.1
+total: 0.024
+conv: 0.001
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.012
+1024 2048 8 0.5
+total: 0.117
+conv: 0.005
+mult: 0.098
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 64 0.5
+total: 0.114
+conv: 0.005
+mult: 0.095
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 256 0.5
+total: 0.118
+conv: 0.005
+mult: 0.099
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 512 0.5
+total: 0.115
+conv: 0.005
+mult: 0.096
+norm: 0
+sort: 0.001
+select: 0.012
+1024 2048 1024 0.5
+total: 0.118
+conv: 0.005
+mult: 0.098
+norm: 0
+sort: 0.001
+select: 0.012
+1024 2048 8 1
+total: 0.455
+conv: 0.008
+mult: 0.432
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 64 1
+total: 0.46
+conv: 0.009
+mult: 0.436
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 256 1
+total: 0.457
+conv: 0.008
+mult: 0.434
+norm: 0
+sort: 0.001
+select: 0.011
+1024 2048 512 1
+total: 0.457
+conv: 0.008
+mult: 0.434
+norm: 0
+sort: 0.001
+select: 0.012
+1024 2048 1024 1
+total: 0.457
+conv: 0.008
+mult: 0.433
+norm: 0
+sort: 0.001
+select: 0.012
+1024 4096 8 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 4096 64 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 4096 256 0.001
+total: 0.013
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.01
+1024 4096 512 0.001
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 1024 0.001
+total: 0.014
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 8 0.01
+total: 0.016
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 64 0.01
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 256 0.01
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 512 0.01
+total: 0.017
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 1024 0.01
+total: 0.02
+conv: 0.002
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.012
+1024 4096 8 0.1
+total: 0.03
+conv: 0.003
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 64 0.1
+total: 0.03
+conv: 0.003
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 256 0.1
+total: 0.03
+conv: 0.003
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 512 0.1
+total: 0.03
+conv: 0.003
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.011
+1024 4096 1024 0.1
+total: 0.035
+conv: 0.007
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.012
+1024 4096 8 0.5
+total: 0.255
+conv: 0.008
+mult: 0.231
+norm: 0
+sort: 0.001
+select: 0.012
+1024 4096 64 0.5
+total: 0.233
+conv: 0.008
+mult: 0.21
+norm: 0
+sort: 0.001
+select: 0.011
+1024 4096 256 0.5
+total: 0.237
+conv: 0.008
+mult: 0.214
+norm: 0
+sort: 0.001
+select: 0.011
+1024 4096 512 0.5
+total: 0.225
+conv: 0.008
+mult: 0.202
+norm: 0
+sort: 0.001
+select: 0.012
+1024 4096 1024 0.5
+total: 0.233
+conv: 0.008
+mult: 0.209
+norm: 0
+sort: 0.001
+select: 0.012
+1024 4096 8 1
+total: 0.922
+conv: 0.017
+mult: 0.889
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 4096 64 1
+total: 0.918
+conv: 0.015
+mult: 0.887
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 4096 256 1
+total: 0.916
+conv: 0.015
+mult: 0.885
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 4096 512 1
+total: 0.931
+conv: 0.015
+mult: 0.899
+norm: 0.001
+sort: 0.002
+select: 0.012
+1024 4096 1024 1
+total: 0.906
+conv: 0.015
+mult: 0.874
+norm: 0.001
+sort: 0.002
+select: 0.012
+1024 8192 8 0.001
+total: 0.014
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.01
+1024 8192 64 0.001
+total: 0.014
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.01
+1024 8192 256 0.001
+total: 0.017
+conv: 0.003
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.01
+1024 8192 512 0.001
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 1024 0.001
+total: 0.015
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 8 0.01
+total: 0.018
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 64 0.01
+total: 0.018
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 256 0.01
+total: 0.019
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 512 0.01
+total: 0.019
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.011
+1024 8192 1024 0.01
+total: 0.019
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.012
+1024 8192 8 0.1
+total: 0.05
+conv: 0.01
+mult: 0.026
+norm: 0
+sort: 0.001
+select: 0.011
+1024 8192 64 0.1
+total: 0.044
+conv: 0.004
+mult: 0.026
+norm: 0
+sort: 0.001
+select: 0.011
+1024 8192 256 0.1
+total: 0.044
+conv: 0.004
+mult: 0.026
+norm: 0
+sort: 0.001
+select: 0.011
+1024 8192 512 0.1
+total: 0.044
+conv: 0.004
+mult: 0.026
+norm: 0
+sort: 0.001
+select: 0.012
+1024 8192 1024 0.1
+total: 0.045
+conv: 0.004
+mult: 0.026
+norm: 0
+sort: 0.001
+select: 0.012
+1024 8192 8 0.5
+total: 0.492
+conv: 0.015
+mult: 0.461
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 8192 64 0.5
+total: 0.495
+conv: 0.015
+mult: 0.464
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 8192 256 0.5
+total: 0.49
+conv: 0.015
+mult: 0.459
+norm: 0.001
+sort: 0.002
+select: 0.011
+1024 8192 512 0.5
+total: 0.495
+conv: 0.015
+mult: 0.463
+norm: 0.001
+sort: 0.003
+select: 0.012
+1024 8192 1024 0.5
+total: 0.485
+conv: 0.02
+mult: 0.449
+norm: 0.001
+sort: 0.002
+select: 0.012
+1024 8192 8 1
+total: 1.935
+conv: 0.029
+mult: 1.888
+norm: 0.001
+sort: 0.003
+select: 0.011
+1024 8192 64 1
+total: 1.922
+conv: 0.029
+mult: 1.875
+norm: 0.001
+sort: 0.003
+select: 0.011
+1024 8192 256 1
+total: 1.895
+conv: 0.029
+mult: 1.848
+norm: 0.001
+sort: 0.003
+select: 0.011
+1024 8192 512 1
+total: 1.861
+conv: 0.029
+mult: 1.814
+norm: 0.001
+sort: 0.003
+select: 0.012
+1024 8192 1024 1
+total: 1.944
+conv: 0.029
+mult: 1.896
+norm: 0.001
+sort: 0.003
+select: 0.012
+2048 16 8 0.001
+total: 0.019
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.016
+2048 16 64 0.001
+total: 0.02
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.016
+2048 16 256 0.001
+total: 0.021
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.017
+2048 16 512 0.001
+total: 0.022
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.018
+2048 16 1024 0.001
+total: 0.022
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.018
+2048 16 2048 0.001
+total: 0.025
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.021
+2048 16 8 0.01
+total: 0.029
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.025
+2048 16 64 0.01
+total: 0.029
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.024
+2048 16 256 0.01
+total: 0.031
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.027
+2048 16 512 0.01
+total: 0.03
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.025
+2048 16 1024 0.01
+total: 0.03
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.026
+2048 16 2048 0.01
+total: 0.034
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.03
+2048 16 8 0.1
+total: 0.061
+conv: 0.001
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.051
+2048 16 64 0.1
+total: 0.057
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 16 256 0.1
+total: 0.058
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 16 512 0.1
+total: 0.058
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 16 1024 0.1
+total: 0.059
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.054
+2048 16 2048 0.1
+total: 0.061
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.055
+2048 16 8 0.5
+total: 0.064
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.054
+2048 16 64 0.5
+total: 0.066
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.056
+2048 16 256 0.5
+total: 0.065
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.055
+2048 16 512 0.5
+total: 0.068
+conv: 0
+mult: 0.01
+norm: 0.001
+sort: 0
+select: 0.055
+2048 16 1024 0.5
+total: 0.067
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.056
+2048 16 2048 0.5
+total: 0.069
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.059
+2048 16 8 1
+total: 0.085
+conv: 0
+mult: 0.028
+norm: 0.001
+sort: 0
+select: 0.053
+2048 16 64 1
+total: 0.081
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.054
+2048 16 256 1
+total: 0.082
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.054
+2048 16 512 1
+total: 0.082
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.055
+2048 16 1024 1
+total: 0.088
+conv: 0
+mult: 0.028
+norm: 0.001
+sort: 0
+select: 0.056
+2048 16 2048 1
+total: 0.085
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.058
+2048 32 8 0.001
+total: 0.021
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.017
+2048 32 64 0.001
+total: 0.022
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.018
+2048 32 256 0.001
+total: 0.023
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.019
+2048 32 512 0.001
+total: 0.028
+conv: 0.001
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.019
+2048 32 1024 0.001
+total: 0.024
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.02
+2048 32 2048 0.001
+total: 0.027
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.022
+2048 32 8 0.01
+total: 0.035
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.03
+2048 32 64 0.01
+total: 0.035
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.03
+2048 32 256 0.01
+total: 0.035
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.031
+2048 32 512 0.01
+total: 0.035
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.03
+2048 32 1024 0.01
+total: 0.037
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.032
+2048 32 2048 0.01
+total: 0.039
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.034
+2048 32 8 0.1
+total: 0.059
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.053
+2048 32 64 0.1
+total: 0.059
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.053
+2048 32 256 0.1
+total: 0.06
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 512 0.1
+total: 0.06
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 1024 0.1
+total: 0.066
+conv: 0.001
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.055
+2048 32 2048 0.1
+total: 0.063
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.057
+2048 32 8 0.5
+total: 0.07
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 64 0.5
+total: 0.071
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 256 0.5
+total: 0.071
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.055
+2048 32 512 0.5
+total: 0.071
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.055
+2048 32 1024 0.5
+total: 0.078
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.062
+2048 32 2048 0.5
+total: 0.075
+conv: 0
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.058
+2048 32 8 1
+total: 0.101
+conv: 0
+mult: 0.044
+norm: 0.001
+sort: 0
+select: 0.053
+2048 32 64 1
+total: 0.101
+conv: 0
+mult: 0.044
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 256 1
+total: 0.102
+conv: 0
+mult: 0.044
+norm: 0.001
+sort: 0
+select: 0.054
+2048 32 512 1
+total: 0.11
+conv: 0.002
+mult: 0.049
+norm: 0.001
+sort: 0
+select: 0.055
+2048 32 1024 1
+total: 0.107
+conv: 0
+mult: 0.048
+norm: 0.001
+sort: 0
+select: 0.056
+2048 32 2048 1
+total: 0.111
+conv: 0.001
+mult: 0.05
+norm: 0.001
+sort: 0
+select: 0.058
+2048 64 8 0.001
+total: 0.023
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.019
+2048 64 64 0.001
+total: 0.024
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.019
+2048 64 256 0.001
+total: 0.023
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.019
+2048 64 512 0.001
+total: 0.025
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.021
+2048 64 1024 0.001
+total: 0.032
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.022
+2048 64 2048 0.001
+total: 0.028
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.024
+2048 64 8 0.01
+total: 0.048
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.044
+2048 64 64 0.01
+total: 0.048
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.044
+2048 64 256 0.01
+total: 0.049
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.044
+2048 64 512 0.01
+total: 0.053
+conv: 0.003
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.045
+2048 64 1024 0.01
+total: 0.05
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.046
+2048 64 2048 0.01
+total: 0.055
+conv: 0.001
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.048
+2048 64 8 0.1
+total: 0.061
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 64 0.1
+total: 0.061
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 256 0.1
+total: 0.061
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 512 0.1
+total: 0.062
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.055
+2048 64 1024 0.1
+total: 0.063
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.056
+2048 64 2048 0.1
+total: 0.065
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.058
+2048 64 8 0.5
+total: 0.08
+conv: 0.001
+mult: 0.022
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 64 0.5
+total: 0.081
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 256 0.5
+total: 0.08
+conv: 0.001
+mult: 0.022
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 512 0.5
+total: 0.081
+conv: 0
+mult: 0.023
+norm: 0.001
+sort: 0
+select: 0.055
+2048 64 1024 0.5
+total: 0.082
+conv: 0
+mult: 0.022
+norm: 0.001
+sort: 0
+select: 0.056
+2048 64 2048 0.5
+total: 0.084
+conv: 0.001
+mult: 0.023
+norm: 0.001
+sort: 0
+select: 0.058
+2048 64 8 1
+total: 0.111
+conv: 0.001
+mult: 0.054
+norm: 0.001
+sort: 0
+select: 0.053
+2048 64 64 1
+total: 0.111
+conv: 0.001
+mult: 0.054
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 256 1
+total: 0.115
+conv: 0.001
+mult: 0.056
+norm: 0.001
+sort: 0
+select: 0.054
+2048 64 512 1
+total: 0.119
+conv: 0.001
+mult: 0.06
+norm: 0.001
+sort: 0
+select: 0.055
+2048 64 1024 1
+total: 0.115
+conv: 0.002
+mult: 0.054
+norm: 0.001
+sort: 0
+select: 0.056
+2048 64 2048 1
+total: 0.116
+conv: 0.001
+mult: 0.054
+norm: 0.001
+sort: 0
+select: 0.058
+2048 128 8 0.001
+total: 0.026
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.022
+2048 128 64 0.001
+total: 0.026
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.022
+2048 128 256 0.001
+total: 0.027
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.023
+2048 128 512 0.001
+total: 0.029
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.025
+2048 128 1024 0.001
+total: 0.028
+conv: 0.001
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.024
+2048 128 2048 0.001
+total: 0.031
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.027
+2048 128 8 0.01
+total: 0.053
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.048
+2048 128 64 0.01
+total: 0.053
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.048
+2048 128 256 0.01
+total: 0.054
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.049
+2048 128 512 0.01
+total: 0.054
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.049
+2048 128 1024 0.01
+total: 0.055
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.05
+2048 128 2048 0.01
+total: 0.057
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.052
+2048 128 8 0.1
+total: 0.062
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.053
+2048 128 64 0.1
+total: 0.062
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 256 0.1
+total: 0.062
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 512 0.1
+total: 0.063
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.055
+2048 128 1024 0.1
+total: 0.065
+conv: 0.001
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.056
+2048 128 2048 0.1
+total: 0.066
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.058
+2048 128 8 0.5
+total: 0.083
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.053
+2048 128 64 0.5
+total: 0.082
+conv: 0.001
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 256 0.5
+total: 0.084
+conv: 0.001
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 512 0.5
+total: 0.084
+conv: 0.001
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.055
+2048 128 1024 0.5
+total: 0.087
+conv: 0.001
+mult: 0.027
+norm: 0.001
+sort: 0
+select: 0.056
+2048 128 2048 0.5
+total: 0.087
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.058
+2048 128 8 1
+total: 0.162
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.053
+2048 128 64 1
+total: 0.162
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 256 1
+total: 0.163
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.054
+2048 128 512 1
+total: 0.163
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.055
+2048 128 1024 1
+total: 0.165
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.056
+2048 128 2048 1
+total: 0.166
+conv: 0.002
+mult: 0.104
+norm: 0.001
+sort: 0
+select: 0.058
+2048 256 8 0.001
+total: 0.03
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.027
+2048 256 64 0.001
+total: 0.03
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.026
+2048 256 256 0.001
+total: 0.034
+conv: 0.002
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.028
+2048 256 512 0.001
+total: 0.031
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.028
+2048 256 1024 0.001
+total: 0.034
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.03
+2048 256 2048 0.001
+total: 0.034
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.03
+2048 256 8 0.01
+total: 0.056
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.051
+2048 256 64 0.01
+total: 0.056
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.051
+2048 256 256 0.01
+total: 0.056
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.052
+2048 256 512 0.01
+total: 0.056
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.052
+2048 256 1024 0.01
+total: 0.057
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.053
+2048 256 2048 0.01
+total: 0.06
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.055
+2048 256 8 0.1
+total: 0.064
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.053
+2048 256 64 0.1
+total: 0.064
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.053
+2048 256 256 0.1
+total: 0.065
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 512 0.1
+total: 0.069
+conv: 0
+mult: 0.011
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 1024 0.1
+total: 0.067
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.055
+2048 256 2048 0.1
+total: 0.07
+conv: 0.001
+mult: 0.009
+norm: 0.001
+sort: 0
+select: 0.058
+2048 256 8 0.5
+total: 0.105
+conv: 0.003
+mult: 0.046
+norm: 0.001
+sort: 0
+select: 0.053
+2048 256 64 0.5
+total: 0.105
+conv: 0.003
+mult: 0.045
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 256 0.5
+total: 0.106
+conv: 0.003
+mult: 0.046
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 512 0.5
+total: 0.106
+conv: 0.002
+mult: 0.046
+norm: 0.001
+sort: 0
+select: 0.055
+2048 256 1024 0.5
+total: 0.112
+conv: 0.008
+mult: 0.046
+norm: 0.001
+sort: 0
+select: 0.056
+2048 256 2048 0.5
+total: 0.108
+conv: 0.002
+mult: 0.045
+norm: 0.001
+sort: 0
+select: 0.058
+2048 256 8 1
+total: 0.262
+conv: 0.003
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.053
+2048 256 64 1
+total: 0.263
+conv: 0.003
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 256 1
+total: 0.266
+conv: 0.003
+mult: 0.205
+norm: 0.001
+sort: 0
+select: 0.054
+2048 256 512 1
+total: 0.264
+conv: 0.003
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.055
+2048 256 1024 1
+total: 0.268
+conv: 0.006
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.056
+2048 256 2048 1
+total: 0.267
+conv: 0.003
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.058
+2048 512 8 0.001
+total: 0.047
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.043
+2048 512 64 0.001
+total: 0.049
+conv: 0.003
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.043
+2048 512 256 0.001
+total: 0.048
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.044
+2048 512 512 0.001
+total: 0.048
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.044
+2048 512 1024 0.001
+total: 0.038
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.034
+2048 512 2048 0.001
+total: 0.051
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.048
+2048 512 8 0.01
+total: 0.057
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.051
+2048 512 64 0.01
+total: 0.057
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.051
+2048 512 256 0.01
+total: 0.058
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 512 512 0.01
+total: 0.058
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 512 1024 0.01
+total: 0.059
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.053
+2048 512 2048 0.01
+total: 0.061
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.055
+2048 512 8 0.1
+total: 0.064
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.053
+2048 512 64 0.1
+total: 0.064
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.053
+2048 512 256 0.1
+total: 0.064
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.053
+2048 512 512 0.1
+total: 0.065
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.054
+2048 512 1024 0.1
+total: 0.066
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.055
+2048 512 2048 0.1
+total: 0.068
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.057
+2048 512 8 0.5
+total: 0.153
+conv: 0.003
+mult: 0.093
+norm: 0.001
+sort: 0
+select: 0.053
+2048 512 64 0.5
+total: 0.151
+conv: 0.003
+mult: 0.091
+norm: 0.001
+sort: 0
+select: 0.054
+2048 512 256 0.5
+total: 0.156
+conv: 0.004
+mult: 0.095
+norm: 0.001
+sort: 0
+select: 0.054
+2048 512 512 0.5
+total: 0.154
+conv: 0.003
+mult: 0.093
+norm: 0.001
+sort: 0
+select: 0.055
+2048 512 1024 0.5
+total: 0.154
+conv: 0.003
+mult: 0.092
+norm: 0.001
+sort: 0
+select: 0.056
+2048 512 2048 0.5
+total: 0.157
+conv: 0.003
+mult: 0.092
+norm: 0.001
+sort: 0
+select: 0.058
+2048 512 8 1
+total: 0.462
+conv: 0.005
+mult: 0.4
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 512 64 1
+total: 0.465
+conv: 0.005
+mult: 0.4
+norm: 0.001
+sort: 0.001
+select: 0.056
+2048 512 256 1
+total: 0.463
+conv: 0.005
+mult: 0.4
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 512 512 1
+total: 0.464
+conv: 0.005
+mult: 0.4
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 512 1024 1
+total: 0.465
+conv: 0.005
+mult: 0.4
+norm: 0.001
+sort: 0.001
+select: 0.056
+2048 512 2048 1
+total: 0.469
+conv: 0.006
+mult: 0.402
+norm: 0.001
+sort: 0.001
+select: 0.058
+2048 1024 8 0.001
+total: 0.049
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.045
+2048 1024 64 0.001
+total: 0.048
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.045
+2048 1024 256 0.001
+total: 0.049
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.046
+2048 1024 512 0.001
+total: 0.05
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.046
+2048 1024 1024 0.001
+total: 0.05
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.047
+2048 1024 2048 0.001
+total: 0.053
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.049
+2048 1024 8 0.01
+total: 0.057
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.051
+2048 1024 64 0.01
+total: 0.062
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0.002
+select: 0.051
+2048 1024 256 0.01
+total: 0.057
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 1024 512 0.01
+total: 0.058
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.052
+2048 1024 1024 0.01
+total: 0.059
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.053
+2048 1024 2048 0.01
+total: 0.061
+conv: 0
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.056
+2048 1024 8 0.1
+total: 0.069
+conv: 0.001
+mult: 0.012
+norm: 0.001
+sort: 0
+select: 0.053
+2048 1024 64 0.1
+total: 0.075
+conv: 0.007
+mult: 0.012
+norm: 0.001
+sort: 0
+select: 0.053
+2048 1024 256 0.1
+total: 0.069
+conv: 0.001
+mult: 0.012
+norm: 0.001
+sort: 0
+select: 0.053
+2048 1024 512 0.1
+total: 0.071
+conv: 0.002
+mult: 0.012
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 1024 1024 0.1
+total: 0.074
+conv: 0.002
+mult: 0.013
+norm: 0.001
+sort: 0
+select: 0.057
+2048 1024 2048 0.1
+total: 0.074
+conv: 0.001
+mult: 0.012
+norm: 0.001
+sort: 0
+select: 0.057
+2048 1024 8 0.5
+total: 0.248
+conv: 0.005
+mult: 0.186
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 1024 64 0.5
+total: 0.252
+conv: 0.005
+mult: 0.188
+norm: 0.001
+sort: 0.003
+select: 0.053
+2048 1024 256 0.5
+total: 0.255
+conv: 0.005
+mult: 0.192
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 1024 512 0.5
+total: 0.253
+conv: 0.005
+mult: 0.19
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 1024 1024 0.5
+total: 0.263
+conv: 0.006
+mult: 0.198
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 1024 2048 0.5
+total: 0.261
+conv: 0.005
+mult: 0.195
+norm: 0.001
+sort: 0.001
+select: 0.058
+2048 1024 8 1
+total: 0.887
+conv: 0.011
+mult: 0.819
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 1024 64 1
+total: 0.947
+conv: 0.01
+mult: 0.874
+norm: 0.001
+sort: 0.001
+select: 0.058
+2048 1024 256 1
+total: 0.933
+conv: 0.008
+mult: 0.867
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 1024 512 1
+total: 0.894
+conv: 0.011
+mult: 0.825
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 1024 1024 1
+total: 0.876
+conv: 0.008
+mult: 0.808
+norm: 0.001
+sort: 0.001
+select: 0.056
+2048 1024 2048 1
+total: 0.894
+conv: 0.013
+mult: 0.819
+norm: 0.001
+sort: 0.001
+select: 0.058
+2048 2048 8 0.001
+total: 0.054
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0.002
+select: 0.048
+2048 2048 64 0.001
+total: 0.052
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.048
+2048 2048 256 0.001
+total: 0.052
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.049
+2048 2048 512 0.001
+total: 0.053
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.049
+2048 2048 1024 0.001
+total: 0.054
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.05
+2048 2048 2048 0.001
+total: 0.055
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.052
+2048 2048 8 0.01
+total: 0.063
+conv: 0
+mult: 0.008
+norm: 0.001
+sort: 0
+select: 0.052
+2048 2048 64 0.01
+total: 0.061
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.054
+2048 2048 256 0.01
+total: 0.06
+conv: 0
+mult: 0.005
+norm: 0.001
+sort: 0
+select: 0.052
+2048 2048 512 0.01
+total: 0.06
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.053
+2048 2048 1024 0.01
+total: 0.063
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.055
+2048 2048 2048 0.01
+total: 0.063
+conv: 0
+mult: 0.004
+norm: 0.001
+sort: 0
+select: 0.056
+2048 2048 8 0.1
+total: 0.085
+conv: 0.003
+mult: 0.023
+norm: 0.001
+sort: 0.003
+select: 0.053
+2048 2048 64 0.1
+total: 0.083
+conv: 0.003
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.053
+2048 2048 256 0.1
+total: 0.082
+conv: 0.003
+mult: 0.023
+norm: 0.001
+sort: 0
+select: 0.054
+2048 2048 512 0.1
+total: 0.09
+conv: 0.004
+mult: 0.029
+norm: 0.001
+sort: 0
+select: 0.054
+2048 2048 1024 0.1
+total: 0.083
+conv: 0.003
+mult: 0.022
+norm: 0.001
+sort: 0
+select: 0.055
+2048 2048 2048 0.1
+total: 0.085
+conv: 0.003
+mult: 0.022
+norm: 0.001
+sort: 0
+select: 0.057
+2048 2048 8 0.5
+total: 0.47
+conv: 0.008
+mult: 0.405
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 2048 64 0.5
+total: 0.475
+conv: 0.008
+mult: 0.41
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 2048 256 0.5
+total: 0.48
+conv: 0.01
+mult: 0.412
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 2048 512 0.5
+total: 0.478
+conv: 0.013
+mult: 0.407
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 2048 1024 0.5
+total: 0.477
+conv: 0.011
+mult: 0.407
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 2048 2048 0.5
+total: 0.477
+conv: 0.008
+mult: 0.407
+norm: 0.001
+sort: 0.001
+select: 0.057
+2048 2048 8 1
+total: 1.812
+conv: 0.018
+mult: 1.736
+norm: 0.001
+sort: 0.002
+select: 0.053
+2048 2048 64 1
+total: 1.798
+conv: 0.015
+mult: 1.725
+norm: 0.001
+sort: 0.002
+select: 0.054
+2048 2048 256 1
+total: 1.788
+conv: 0.015
+mult: 1.714
+norm: 0.001
+sort: 0.002
+select: 0.054
+2048 2048 512 1
+total: 1.813
+conv: 0.015
+mult: 1.738
+norm: 0.001
+sort: 0.002
+select: 0.055
+2048 2048 1024 1
+total: 1.813
+conv: 0.016
+mult: 1.736
+norm: 0.001
+sort: 0.002
+select: 0.056
+2048 2048 2048 1
+total: 1.814
+conv: 0.015
+mult: 1.736
+norm: 0.001
+sort: 0.002
+select: 0.058
+2048 4096 8 0.001
+total: 0.054
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.05
+2048 4096 64 0.001
+total: 0.054
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.05
+2048 4096 256 0.001
+total: 0.055
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.05
+2048 4096 512 0.001
+total: 0.055
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.051
+2048 4096 1024 0.001
+total: 0.065
+conv: 0
+mult: 0.008
+norm: 0.003
+sort: 0
+select: 0.052
+2048 4096 2048 0.001
+total: 0.059
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.054
+2048 4096 8 0.01
+total: 0.063
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.052
+2048 4096 64 0.01
+total: 0.063
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.052
+2048 4096 256 0.01
+total: 0.063
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.052
+2048 4096 512 0.01
+total: 0.063
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.053
+2048 4096 1024 0.01
+total: 0.064
+conv: 0
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.054
+2048 4096 2048 0.01
+total: 0.067
+conv: 0.001
+mult: 0.007
+norm: 0.001
+sort: 0
+select: 0.056
+2048 4096 8 0.1
+total: 0.107
+conv: 0.007
+mult: 0.044
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 4096 64 0.1
+total: 0.105
+conv: 0.004
+mult: 0.044
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 4096 256 0.1
+total: 0.106
+conv: 0.004
+mult: 0.044
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 4096 512 0.1
+total: 0.108
+conv: 0.004
+mult: 0.046
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 4096 1024 0.1
+total: 0.107
+conv: 0.004
+mult: 0.044
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 4096 2048 0.1
+total: 0.109
+conv: 0.004
+mult: 0.044
+norm: 0.001
+sort: 0.001
+select: 0.057
+2048 4096 8 0.5
+total: 1.025
+conv: 0.017
+mult: 0.949
+norm: 0.001
+sort: 0.002
+select: 0.053
+2048 4096 64 0.5
+total: 1.009
+conv: 0.015
+mult: 0.935
+norm: 0.001
+sort: 0.002
+select: 0.053
+2048 4096 256 0.5
+total: 1.018
+conv: 0.015
+mult: 0.944
+norm: 0.001
+sort: 0.002
+select: 0.054
+2048 4096 512 0.5
+total: 1.01
+conv: 0.015
+mult: 0.935
+norm: 0.001
+sort: 0.002
+select: 0.054
+2048 4096 1024 0.5
+total: 1.003
+conv: 0.015
+mult: 0.927
+norm: 0.001
+sort: 0.002
+select: 0.056
+2048 4096 2048 0.5
+total: 1.01
+conv: 0.015
+mult: 0.932
+norm: 0.001
+sort: 0.002
+select: 0.057
+2048 4096 8 1
+total: 3.705
+conv: 0.029
+mult: 3.609
+norm: 0.002
+sort: 0.01
+select: 0.053
+2048 4096 64 1
+total: 3.723
+conv: 0.029
+mult: 3.634
+norm: 0.002
+sort: 0.003
+select: 0.054
+2048 4096 256 1
+total: 3.746
+conv: 0.03
+mult: 3.655
+norm: 0.002
+sort: 0.003
+select: 0.054
+2048 4096 512 1
+total: 3.724
+conv: 0.03
+mult: 3.633
+norm: 0.002
+sort: 0.003
+select: 0.055
+2048 4096 1024 1
+total: 3.728
+conv: 0.033
+mult: 3.632
+norm: 0.002
+sort: 0.004
+select: 0.055
+2048 4096 2048 1
+total: 3.737
+conv: 0.029
+mult: 3.643
+norm: 0.002
+sort: 0.003
+select: 0.057
+2048 8192 8 0.001
+total: 0.055
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.05
+2048 8192 64 0.001
+total: 0.055
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.05
+2048 8192 256 0.001
+total: 0.055
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.051
+2048 8192 512 0.001
+total: 0.056
+conv: 0
+mult: 0.001
+norm: 0.001
+sort: 0
+select: 0.051
+2048 8192 1024 0.001
+total: 0.066
+conv: 0.002
+mult: 0.003
+norm: 0.001
+sort: 0
+select: 0.058
+2048 8192 2048 0.001
+total: 0.065
+conv: 0
+mult: 0.002
+norm: 0.001
+sort: 0
+select: 0.06
+2048 8192 8 0.01
+total: 0.077
+conv: 0.001
+mult: 0.015
+norm: 0.001
+sort: 0
+select: 0.057
+2048 8192 64 0.01
+total: 0.073
+conv: 0.001
+mult: 0.014
+norm: 0.001
+sort: 0
+select: 0.054
+2048 8192 256 0.01
+total: 0.072
+conv: 0.001
+mult: 0.014
+norm: 0.001
+sort: 0
+select: 0.054
+2048 8192 512 0.01
+total: 0.072
+conv: 0.001
+mult: 0.014
+norm: 0.001
+sort: 0
+select: 0.054
+2048 8192 1024 0.01
+total: 0.074
+conv: 0.001
+mult: 0.014
+norm: 0.001
+sort: 0
+select: 0.055
+2048 8192 2048 0.01
+total: 0.075
+conv: 0.001
+mult: 0.014
+norm: 0.001
+sort: 0
+select: 0.057
+2048 8192 8 0.1
+total: 0.164
+conv: 0.007
+mult: 0.098
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 8192 64 0.1
+total: 0.161
+conv: 0.007
+mult: 0.097
+norm: 0.001
+sort: 0.001
+select: 0.053
+2048 8192 256 0.1
+total: 0.165
+conv: 0.01
+mult: 0.097
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 8192 512 0.1
+total: 0.164
+conv: 0.007
+mult: 0.099
+norm: 0.001
+sort: 0.001
+select: 0.054
+2048 8192 1024 0.1
+total: 0.163
+conv: 0.007
+mult: 0.097
+norm: 0.001
+sort: 0.001
+select: 0.055
+2048 8192 2048 0.1
+total: 0.165
+conv: 0.007
+mult: 0.097
+norm: 0.001
+sort: 0.001
+select: 0.057
+2048 8192 8 0.5
+total: 2.21
+conv: 0.034
+mult: 2.116
+norm: 0.002
+sort: 0.004
+select: 0.053
+2048 8192 64 0.5
+total: 2.165
+conv: 0.029
+mult: 2.075
+norm: 0.002
+sort: 0.003
+select: 0.053
+2048 8192 256 0.5
+total: 2.19
+conv: 0.029
+mult: 2.1
+norm: 0.002
+sort: 0.004
+select: 0.054
+2048 8192 512 0.5
+total: 2.175
+conv: 0.03
+mult: 2.083
+norm: 0.002
+sort: 0.004
+select: 0.054
+2048 8192 1024 0.5
+total: 2.212
+conv: 0.034
+mult: 2.115
+norm: 0.002
+sort: 0.004
+select: 0.055
+2048 8192 2048 0.5
+total: 2.185
+conv: 0.029
+mult: 2.091
+norm: 0.002
+sort: 0.004
+select: 0.057
+2048 8192 8 1
+total: 7.72
+conv: 0.057
+mult: 7.601
+norm: 0.001
+sort: 0.007
+select: 0.053
+2048 8192 64 1
+total: 7.918
+conv: 0.056
+mult: 7.8
+norm: 0.001
+sort: 0.007
+select: 0.053
+2048 8192 256 1
+total: 7.712
+conv: 0.057
+mult: 7.592
+norm: 0.001
+sort: 0.007
+select: 0.053
+2048 8192 512 1
+total: 7.725
+conv: 0.058
+mult: 7.604
+norm: 0.001
+sort: 0.007
+select: 0.054
+2048 8192 1024 1
+total: 7.752
+conv: 0.056
+mult: 7.631
+norm: 0.001
+sort: 0.007
+select: 0.055
+2048 8192 2048 1
+total: 7.771
+conv: 0.056
+mult: 7.648
+norm: 0.001
+sort: 0.007
+select: 0.057
+4096 16 8 0.001
+total: 0.066
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.062
+4096 16 64 0.001
+total: 0.069
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.065
+4096 16 256 0.001
+total: 0.067
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.064
+4096 16 512 0.001
+total: 0.068
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.065
+4096 16 1024 0.001
+total: 0.07
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.067
+4096 16 2048 0.001
+total: 0.077
+conv: 0
+mult: 0.002
+norm: 0.002
+sort: 0.001
+select: 0.07
+4096 16 4096 0.001
+total: 0.082
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.079
+4096 16 8 0.01
+total: 0.075
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.07
+4096 16 64 0.01
+total: 0.075
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.071
+4096 16 256 0.01
+total: 0.076
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.072
+4096 16 512 0.01
+total: 0.077
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.073
+4096 16 1024 0.01
+total: 0.079
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.074
+4096 16 2048 0.01
+total: 0.086
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0.002
+select: 0.079
+4096 16 4096 0.01
+total: 0.092
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.087
+4096 16 8 0.1
+total: 0.136
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.128
+4096 16 64 0.1
+total: 0.139
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.13
+4096 16 256 0.1
+total: 0.137
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.129
+4096 16 512 0.1
+total: 0.138
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.13
+4096 16 1024 0.1
+total: 0.14
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.132
+4096 16 2048 0.1
+total: 0.146
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.137
+4096 16 4096 0.1
+total: 0.153
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.144
+4096 16 8 0.5
+total: 0.277
+conv: 0
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.248
+4096 16 64 0.5
+total: 0.276
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.249
+4096 16 256 0.5
+total: 0.277
+conv: 0
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.249
+4096 16 512 0.5
+total: 0.284
+conv: 0
+mult: 0.03
+norm: 0.001
+sort: 0
+select: 0.251
+4096 16 1024 0.5
+total: 0.281
+conv: 0
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.252
+4096 16 2048 0.5
+total: 0.287
+conv: 0
+mult: 0.024
+norm: 0.003
+sort: 0.001
+select: 0.257
+4096 16 4096 0.5
+total: 0.293
+conv: 0
+mult: 0.025
+norm: 0.001
+sort: 0
+select: 0.264
+4096 16 8 1
+total: 0.33
+conv: 0
+mult: 0.079
+norm: 0.001
+sort: 0
+select: 0.247
+4096 16 64 1
+total: 0.329
+conv: 0
+mult: 0.078
+norm: 0.001
+sort: 0
+select: 0.247
+4096 16 256 1
+total: 0.329
+conv: 0
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.248
+4096 16 512 1
+total: 0.331
+conv: 0
+mult: 0.078
+norm: 0.001
+sort: 0
+select: 0.249
+4096 16 1024 1
+total: 0.333
+conv: 0
+mult: 0.078
+norm: 0.001
+sort: 0
+select: 0.251
+4096 16 2048 1
+total: 0.336
+conv: 0
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.255
+4096 16 4096 1
+total: 0.343
+conv: 0
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.263
+4096 32 8 0.001
+total: 0.066
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.063
+4096 32 64 0.001
+total: 0.067
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.063
+4096 32 256 0.001
+total: 0.068
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.064
+4096 32 512 0.001
+total: 0.069
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.065
+4096 32 1024 0.001
+total: 0.071
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.067
+4096 32 2048 0.001
+total: 0.078
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.074
+4096 32 4096 0.001
+total: 0.083
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.079
+4096 32 8 0.01
+total: 0.078
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.074
+4096 32 64 0.01
+total: 0.079
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.074
+4096 32 256 0.01
+total: 0.08
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.075
+4096 32 512 0.01
+total: 0.08
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.076
+4096 32 1024 0.01
+total: 0.083
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.079
+4096 32 2048 0.01
+total: 0.086
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.082
+4096 32 4096 0.01
+total: 0.094
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.09
+4096 32 8 0.1
+total: 0.17
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.159
+4096 32 64 0.1
+total: 0.168
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.157
+4096 32 256 0.1
+total: 0.168
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.157
+4096 32 512 0.1
+total: 0.169
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.158
+4096 32 1024 0.1
+total: 0.174
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0.002
+select: 0.16
+4096 32 2048 0.1
+total: 0.177
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.166
+4096 32 4096 0.1
+total: 0.184
+conv: 0
+mult: 0.009
+norm: 0
+sort: 0
+select: 0.173
+4096 32 8 0.5
+total: 0.292
+conv: 0.001
+mult: 0.04
+norm: 0.001
+sort: 0
+select: 0.248
+4096 32 64 0.5
+total: 0.293
+conv: 0.001
+mult: 0.04
+norm: 0.001
+sort: 0
+select: 0.249
+4096 32 256 0.5
+total: 0.295
+conv: 0.001
+mult: 0.041
+norm: 0.001
+sort: 0
+select: 0.249
+4096 32 512 0.5
+total: 0.298
+conv: 0.001
+mult: 0.04
+norm: 0.001
+sort: 0.003
+select: 0.251
+4096 32 1024 0.5
+total: 0.296
+conv: 0
+mult: 0.04
+norm: 0.001
+sort: 0
+select: 0.253
+4096 32 2048 0.5
+total: 0.3
+conv: 0
+mult: 0.04
+norm: 0.001
+sort: 0
+select: 0.256
+4096 32 4096 0.5
+total: 0.309
+conv: 0.001
+mult: 0.04
+norm: 0.001
+sort: 0
+select: 0.265
+4096 32 8 1
+total: 0.402
+conv: 0.001
+mult: 0.15
+norm: 0.001
+sort: 0
+select: 0.247
+4096 32 64 1
+total: 0.404
+conv: 0.001
+mult: 0.152
+norm: 0.001
+sort: 0
+select: 0.247
+4096 32 256 1
+total: 0.402
+conv: 0.001
+mult: 0.15
+norm: 0.001
+sort: 0
+select: 0.248
+4096 32 512 1
+total: 0.403
+conv: 0.001
+mult: 0.15
+norm: 0.001
+sort: 0
+select: 0.249
+4096 32 1024 1
+total: 0.406
+conv: 0.001
+mult: 0.151
+norm: 0.001
+sort: 0
+select: 0.251
+4096 32 2048 1
+total: 0.409
+conv: 0.001
+mult: 0.15
+norm: 0.001
+sort: 0
+select: 0.255
+4096 32 4096 1
+total: 0.422
+conv: 0.006
+mult: 0.15
+norm: 0.001
+sort: 0
+select: 0.263
+4096 64 8 0.001
+total: 0.067
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.063
+4096 64 64 0.001
+total: 0.067
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.063
+4096 64 256 0.001
+total: 0.068
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.064
+4096 64 512 0.001
+total: 0.07
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.066
+4096 64 1024 0.001
+total: 0.071
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.067
+4096 64 2048 0.001
+total: 0.075
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.071
+4096 64 4096 0.001
+total: 0.09
+conv: 0.002
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.079
+4096 64 8 0.01
+total: 0.085
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.081
+4096 64 64 0.01
+total: 0.083
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.078
+4096 64 256 0.01
+total: 0.084
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.079
+4096 64 512 0.01
+total: 0.085
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.08
+4096 64 1024 0.01
+total: 0.087
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.082
+4096 64 2048 0.01
+total: 0.096
+conv: 0.005
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.086
+4096 64 4096 0.01
+total: 0.099
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.094
+4096 64 8 0.1
+total: 0.21
+conv: 0
+mult: 0.016
+norm: 0
+sort: 0
+select: 0.191
+4096 64 64 0.1
+total: 0.211
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.195
+4096 64 256 0.1
+total: 0.208
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.192
+4096 64 512 0.1
+total: 0.21
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.194
+4096 64 1024 0.1
+total: 0.211
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.196
+4096 64 2048 0.1
+total: 0.214
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.199
+4096 64 4096 0.1
+total: 0.224
+conv: 0
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.208
+4096 64 8 0.5
+total: 0.33
+conv: 0.001
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.248
+4096 64 64 0.5
+total: 0.33
+conv: 0.001
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.249
+4096 64 256 0.5
+total: 0.331
+conv: 0.001
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.25
+4096 64 512 0.5
+total: 0.332
+conv: 0.001
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.251
+4096 64 1024 0.5
+total: 0.337
+conv: 0.001
+mult: 0.077
+norm: 0.001
+sort: 0
+select: 0.255
+4096 64 2048 0.5
+total: 0.337
+conv: 0.001
+mult: 0.076
+norm: 0.001
+sort: 0
+select: 0.257
+4096 64 4096 0.5
+total: 0.345
+conv: 0.001
+mult: 0.076
+norm: 0.001
+sort: 0
+select: 0.264
+4096 64 8 1
+total: 0.457
+conv: 0.002
+mult: 0.205
+norm: 0.001
+sort: 0
+select: 0.247
+4096 64 64 1
+total: 0.458
+conv: 0.002
+mult: 0.204
+norm: 0.001
+sort: 0
+select: 0.248
+4096 64 256 1
+total: 0.461
+conv: 0.002
+mult: 0.208
+norm: 0.001
+sort: 0
+select: 0.248
+4096 64 512 1
+total: 0.459
+conv: 0.002
+mult: 0.205
+norm: 0.001
+sort: 0
+select: 0.249
+4096 64 1024 1
+total: 0.46
+conv: 0.002
+mult: 0.204
+norm: 0.001
+sort: 0
+select: 0.251
+4096 64 2048 1
+total: 0.465
+conv: 0.002
+mult: 0.205
+norm: 0.001
+sort: 0
+select: 0.255
+4096 64 4096 1
+total: 0.477
+conv: 0.002
+mult: 0.208
+norm: 0.001
+sort: 0
+select: 0.264
+4096 128 8 0.001
+total: 0.068
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.064
+4096 128 64 0.001
+total: 0.075
+conv: 0.002
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.064
+4096 128 256 0.001
+total: 0.069
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.065
+4096 128 512 0.001
+total: 0.07
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.066
+4096 128 1024 0.001
+total: 0.072
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.068
+4096 128 2048 0.001
+total: 0.076
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.072
+4096 128 4096 0.001
+total: 0.09
+conv: 0.003
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.08
+4096 128 8 0.01
+total: 0.095
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0.005
+select: 0.082
+4096 128 64 0.01
+total: 0.091
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.085
+4096 128 256 0.01
+total: 0.088
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.083
+4096 128 512 0.01
+total: 0.089
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.084
+4096 128 1024 0.01
+total: 0.092
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.086
+4096 128 2048 0.01
+total: 0.096
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.09
+4096 128 4096 0.01
+total: 0.104
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.098
+4096 128 8 0.1
+total: 0.253
+conv: 0
+mult: 0.023
+norm: 0.001
+sort: 0
+select: 0.226
+4096 128 64 0.1
+total: 0.249
+conv: 0
+mult: 0.019
+norm: 0.001
+sort: 0
+select: 0.227
+4096 128 256 0.1
+total: 0.249
+conv: 0
+mult: 0.019
+norm: 0.001
+sort: 0
+select: 0.227
+4096 128 512 0.1
+total: 0.252
+conv: 0
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.228
+4096 128 1024 0.1
+total: 0.252
+conv: 0
+mult: 0.019
+norm: 0.001
+sort: 0
+select: 0.23
+4096 128 2048 0.1
+total: 0.256
+conv: 0
+mult: 0.019
+norm: 0.001
+sort: 0
+select: 0.234
+4096 128 4096 0.1
+total: 0.265
+conv: 0
+mult: 0.019
+norm: 0.001
+sort: 0
+select: 0.243
+4096 128 8 0.5
+total: 0.351
+conv: 0.002
+mult: 0.097
+norm: 0.001
+sort: 0
+select: 0.248
+4096 128 64 0.5
+total: 0.351
+conv: 0.002
+mult: 0.097
+norm: 0.001
+sort: 0
+select: 0.249
+4096 128 256 0.5
+total: 0.351
+conv: 0.002
+mult: 0.096
+norm: 0.001
+sort: 0
+select: 0.25
+4096 128 512 0.5
+total: 0.352
+conv: 0.003
+mult: 0.095
+norm: 0.001
+sort: 0
+select: 0.251
+4096 128 1024 0.5
+total: 0.357
+conv: 0.003
+mult: 0.097
+norm: 0.001
+sort: 0
+select: 0.253
+4096 128 2048 0.5
+total: 0.361
+conv: 0.003
+mult: 0.098
+norm: 0.001
+sort: 0
+select: 0.257
+4096 128 4096 0.5
+total: 0.37
+conv: 0.003
+mult: 0.098
+norm: 0.001
+sort: 0
+select: 0.265
+4096 128 8 1
+total: 0.653
+conv: 0.003
+mult: 0.399
+norm: 0.001
+sort: 0
+select: 0.247
+4096 128 64 1
+total: 0.657
+conv: 0.003
+mult: 0.4
+norm: 0.001
+sort: 0
+select: 0.251
+4096 128 256 1
+total: 0.655
+conv: 0.003
+mult: 0.4
+norm: 0.001
+sort: 0
+select: 0.248
+4096 128 512 1
+total: 0.654
+conv: 0.003
+mult: 0.398
+norm: 0.001
+sort: 0
+select: 0.249
+4096 128 1024 1
+total: 0.658
+conv: 0.003
+mult: 0.399
+norm: 0.001
+sort: 0
+select: 0.252
+4096 128 2048 1
+total: 0.662
+conv: 0.003
+mult: 0.399
+norm: 0.001
+sort: 0.001
+select: 0.255
+4096 128 4096 1
+total: 0.672
+conv: 0.003
+mult: 0.402
+norm: 0.001
+sort: 0
+select: 0.263
+4096 256 8 0.001
+total: 0.068
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.065
+4096 256 64 0.001
+total: 0.068
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.065
+4096 256 256 0.001
+total: 0.069
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.066
+4096 256 512 0.001
+total: 0.07
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.067
+4096 256 1024 0.001
+total: 0.072
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.069
+4096 256 2048 0.001
+total: 0.076
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.073
+4096 256 4096 0.001
+total: 0.085
+conv: 0
+mult: 0.001
+norm: 0
+sort: 0
+select: 0.081
+4096 256 8 0.01
+total: 0.095
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.087
+4096 256 64 0.01
+total: 0.095
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.087
+4096 256 256 0.01
+total: 0.096
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.088
+4096 256 512 0.01
+total: 0.097
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.089
+4096 256 1024 0.01
+total: 0.099
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.091
+4096 256 2048 0.01
+total: 0.103
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.096
+4096 256 4096 0.01
+total: 0.111
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.103
+4096 256 8 0.1
+total: 0.278
+conv: 0.001
+mult: 0.028
+norm: 0.001
+sort: 0
+select: 0.246
+4096 256 64 0.1
+total: 0.276
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.246
+4096 256 256 0.1
+total: 0.277
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.247
+4096 256 512 0.1
+total: 0.278
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.248
+4096 256 1024 0.1
+total: 0.28
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.25
+4096 256 2048 0.1
+total: 0.284
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.254
+4096 256 4096 0.1
+total: 0.293
+conv: 0.001
+mult: 0.026
+norm: 0.001
+sort: 0
+select: 0.263
+4096 256 8 0.5
+total: 0.459
+conv: 0.003
+mult: 0.203
+norm: 0.001
+sort: 0.001
+select: 0.249
+4096 256 64 0.5
+total: 0.457
+conv: 0.003
+mult: 0.201
+norm: 0.001
+sort: 0.001
+select: 0.249
+4096 256 256 0.5
+total: 0.46
+conv: 0.003
+mult: 0.204
+norm: 0.001
+sort: 0
+select: 0.25
+4096 256 512 0.5
+total: 0.46
+conv: 0.005
+mult: 0.201
+norm: 0.001
+sort: 0.001
+select: 0.25
+4096 256 1024 0.5
+total: 0.461
+conv: 0.003
+mult: 0.201
+norm: 0.001
+sort: 0
+select: 0.253
+4096 256 2048 0.5
+total: 0.467
+conv: 0.004
+mult: 0.202
+norm: 0.001
+sort: 0.001
+select: 0.258
+4096 256 4096 0.5
+total: 0.473
+conv: 0.003
+mult: 0.202
+norm: 0.001
+sort: 0
+select: 0.264
+4096 256 8 1
+total: 1.05
+conv: 0.005
+mult: 0.794
+norm: 0.001
+sort: 0.001
+select: 0.247
+4096 256 64 1
+total: 1.053
+conv: 0.005
+mult: 0.797
+norm: 0.001
+sort: 0.001
+select: 0.247
+4096 256 256 1
+total: 1.069
+conv: 0.009
+mult: 0.808
+norm: 0.001
+sort: 0.001
+select: 0.248
+4096 256 512 1
+total: 1.071
+conv: 0.005
+mult: 0.811
+norm: 0.003
+sort: 0.001
+select: 0.249
+4096 256 1024 1
+total: 1.07
+conv: 0.005
+mult: 0.81
+norm: 0.001
+sort: 0.001
+select: 0.251
+4096 256 2048 1
+total: 1.067
+conv: 0.005
+mult: 0.803
+norm: 0.001
+sort: 0.001
+select: 0.255
+4096 256 4096 1
+total: 1.083
+conv: 0.005
+mult: 0.81
+norm: 0.001
+sort: 0.001
+select: 0.264
+4096 512 8 0.001
+total: 0.07
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.066
+4096 512 64 0.001
+total: 0.075
+conv: 0.001
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.067
+4096 512 256 0.001
+total: 0.071
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.067
+4096 512 512 0.001
+total: 0.072
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.069
+4096 512 1024 0.001
+total: 0.074
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.071
+4096 512 2048 0.001
+total: 0.082
+conv: 0.002
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.075
+4096 512 4096 0.001
+total: 0.087
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.084
+4096 512 8 0.01
+total: 0.103
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.095
+4096 512 64 0.01
+total: 0.103
+conv: 0
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.095
+4096 512 256 0.01
+total: 0.104
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.096
+4096 512 512 0.01
+total: 0.105
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.097
+4096 512 1024 0.01
+total: 0.107
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.099
+4096 512 2048 0.01
+total: 0.111
+conv: 0
+mult: 0.006
+norm: 0
+sort: 0
+select: 0.103
+4096 512 4096 0.01
+total: 0.122
+conv: 0
+mult: 0.007
+norm: 0
+sort: 0
+select: 0.112
+4096 512 8 0.1
+total: 0.281
+conv: 0.001
+mult: 0.024
+norm: 0.004
+sort: 0.001
+select: 0.249
+4096 512 64 0.1
+total: 0.279
+conv: 0.001
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.249
+4096 512 256 0.1
+total: 0.284
+conv: 0.002
+mult: 0.028
+norm: 0.001
+sort: 0
+select: 0.25
+4096 512 512 0.1
+total: 0.28
+conv: 0.001
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.251
+4096 512 1024 0.1
+total: 0.282
+conv: 0.001
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.253
+4096 512 2048 0.1
+total: 0.286
+conv: 0.001
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.257
+4096 512 4096 0.1
+total: 0.295
+conv: 0.002
+mult: 0.024
+norm: 0.001
+sort: 0
+select: 0.266
+4096 512 8 0.5
+total: 0.673
+conv: 0.005
+mult: 0.416
+norm: 0.001
+sort: 0.001
+select: 0.248
+4096 512 64 0.5
+total: 0.683
+conv: 0.007
+mult: 0.423
+norm: 0.001
+sort: 0.001
+select: 0.249
+4096 512 256 0.5
+total: 0.682
+conv: 0.005
+mult: 0.424
+norm: 0.001
+sort: 0.001
+select: 0.25
+4096 512 512 0.5
+total: 0.679
+conv: 0.005
+mult: 0.418
+norm: 0.001
+sort: 0.001
+select: 0.251
+4096 512 1024 0.5
+total: 0.693
+conv: 0.005
+mult: 0.431
+norm: 0.001
+sort: 0.001
+select: 0.253
+4096 512 2048 0.5
+total: 0.687
+conv: 0.005
+mult: 0.422
+norm: 0.001
+sort: 0.001
+select: 0.256
+4096 512 4096 0.5
+total: 0.693
+conv: 0.005
+mult: 0.42
+norm: 0.001
+sort: 0.001
+select: 0.264
+4096 512 8 1
+total: 1.952
+conv: 0.01
+mult: 1.69
+norm: 0.001
+sort: 0.001
+select: 0.247
+4096 512 64 1
+total: 1.941
+conv: 0.008
+mult: 1.68
+norm: 0.001
+sort: 0.001
+select: 0.247
+4096 512 256 1
+total: 1.961
+conv: 0.008
+mult: 1.7
+norm: 0.001
+sort: 0.001
+select: 0.248
+4096 512 512 1
+total: 1.94
+conv: 0.008
+mult: 1.677
+norm: 0.001
+sort: 0.001
+select: 0.249
+4096 512 1024 1
+total: 1.997
+conv: 0.011
+mult: 1.73
+norm: 0.001
+sort: 0.001
+select: 0.251
+4096 512 2048 1
+total: 1.97
+conv: 0.008
+mult: 1.702
+norm: 0.001
+sort: 0.001
+select: 0.255
+4096 512 4096 1
+total: 1.971
+conv: 0.009
+mult: 1.694
+norm: 0.001
+sort: 0.001
+select: 0.264
+4096 1024 8 0.001
+total: 0.073
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.069
+4096 1024 64 0.001
+total: 0.073
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.069
+4096 1024 256 0.001
+total: 0.074
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.07
+4096 1024 512 0.001
+total: 0.075
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.071
+4096 1024 1024 0.001
+total: 0.077
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.073
+4096 1024 2048 0.001
+total: 0.081
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.077
+4096 1024 4096 0.001
+total: 0.089
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.085
+4096 1024 8 0.01
+total: 0.118
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.108
+4096 1024 64 0.01
+total: 0.118
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.108
+4096 1024 256 0.01
+total: 0.119
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.109
+4096 1024 512 0.01
+total: 0.12
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.11
+4096 1024 1024 0.01
+total: 0.122
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.112
+4096 1024 2048 0.01
+total: 0.131
+conv: 0.001
+mult: 0.012
+norm: 0
+sort: 0
+select: 0.116
+4096 1024 4096 0.01
+total: 0.134
+conv: 0
+mult: 0.008
+norm: 0
+sort: 0
+select: 0.124
+4096 1024 8 0.1
+total: 0.303
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0.002
+select: 0.249
+4096 1024 64 0.1
+total: 0.303
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0.002
+select: 0.249
+4096 1024 256 0.1
+total: 0.306
+conv: 0.003
+mult: 0.048
+norm: 0
+sort: 0.002
+select: 0.251
+4096 1024 512 0.1
+total: 0.305
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0.002
+select: 0.251
+4096 1024 1024 0.1
+total: 0.312
+conv: 0.004
+mult: 0.052
+norm: 0
+sort: 0.002
+select: 0.253
+4096 1024 2048 0.1
+total: 0.319
+conv: 0.006
+mult: 0.052
+norm: 0
+sort: 0.002
+select: 0.257
+4096 1024 4096 0.1
+total: 0.319
+conv: 0.003
+mult: 0.047
+norm: 0
+sort: 0.002
+select: 0.265
+4096 1024 8 0.5
+total: 1.201
+conv: 0.008
+mult: 0.932
+norm: 0
+sort: 0.01
+select: 0.249
+4096 1024 64 0.5
+total: 1.183
+conv: 0.008
+mult: 0.922
+norm: 0
+sort: 0.002
+select: 0.249
+4096 1024 256 0.5
+total: 1.176
+conv: 0.009
+mult: 0.913
+norm: 0
+sort: 0.002
+select: 0.25
+4096 1024 512 0.5
+total: 1.194
+conv: 0.008
+mult: 0.93
+norm: 0
+sort: 0.003
+select: 0.251
+4096 1024 1024 0.5
+total: 1.174
+conv: 0.009
+mult: 0.908
+norm: 0
+sort: 0.002
+select: 0.253
+4096 1024 2048 0.5
+total: 1.179
+conv: 0.01
+mult: 0.905
+norm: 0
+sort: 0.005
+select: 0.257
+4096 1024 4096 0.5
+total: 1.205
+conv: 0.008
+mult: 0.927
+norm: 0
+sort: 0.002
+select: 0.265
+4096 1024 8 1
+total: 3.84
+conv: 0.015
+mult: 3.573
+norm: 0
+sort: 0.003
+select: 0.247
+4096 1024 64 1
+total: 3.818
+conv: 0.015
+mult: 3.551
+norm: 0
+sort: 0.003
+select: 0.247
+4096 1024 256 1
+total: 3.844
+conv: 0.015
+mult: 3.577
+norm: 0
+sort: 0.003
+select: 0.248
+4096 1024 512 1
+total: 3.847
+conv: 0.015
+mult: 3.578
+norm: 0
+sort: 0.003
+select: 0.249
+4096 1024 1024 1
+total: 3.838
+conv: 0.018
+mult: 3.565
+norm: 0
+sort: 0.003
+select: 0.251
+4096 1024 2048 1
+total: 3.823
+conv: 0.017
+mult: 3.546
+norm: 0
+sort: 0.003
+select: 0.255
+4096 1024 4096 1
+total: 3.852
+conv: 0.015
+mult: 3.568
+norm: 0
+sort: 0.003
+select: 0.263
+4096 2048 8 0.001
+total: 0.076
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.072
+4096 2048 64 0.001
+total: 0.077
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.072
+4096 2048 256 0.001
+total: 0.077
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.073
+4096 2048 512 0.001
+total: 0.078
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.074
+4096 2048 1024 0.001
+total: 0.08
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.076
+4096 2048 2048 0.001
+total: 0.085
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.08
+4096 2048 4096 0.001
+total: 0.094
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.089
+4096 2048 8 0.01
+total: 0.145
+conv: 0.001
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.129
+4096 2048 64 0.01
+total: 0.145
+conv: 0.001
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.129
+4096 2048 256 0.01
+total: 0.15
+conv: 0.001
+mult: 0.015
+norm: 0
+sort: 0.004
+select: 0.13
+4096 2048 512 0.01
+total: 0.146
+conv: 0.001
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.13
+4096 2048 1024 0.01
+total: 0.149
+conv: 0.001
+mult: 0.014
+norm: 0
+sort: 0
+select: 0.133
+4096 2048 2048 0.01
+total: 0.153
+conv: 0.001
+mult: 0.013
+norm: 0
+sort: 0
+select: 0.137
+4096 2048 4096 0.01
+total: 0.169
+conv: 0.001
+mult: 0.019
+norm: 0
+sort: 0.003
+select: 0.145
+4096 2048 8 0.1
+total: 0.355
+conv: 0.007
+mult: 0.095
+norm: 0
+sort: 0.002
+select: 0.249
+4096 2048 64 0.1
+total: 0.354
+conv: 0.004
+mult: 0.097
+norm: 0
+sort: 0.002
+select: 0.249
+4096 2048 256 0.1
+total: 0.353
+conv: 0.004
+mult: 0.095
+norm: 0
+sort: 0.002
+select: 0.25
+4096 2048 512 0.1
+total: 0.355
+conv: 0.004
+mult: 0.096
+norm: 0
+sort: 0.002
+select: 0.251
+4096 2048 1024 0.1
+total: 0.358
+conv: 0.004
+mult: 0.096
+norm: 0
+sort: 0.002
+select: 0.253
+4096 2048 2048 0.1
+total: 0.366
+conv: 0.01
+mult: 0.094
+norm: 0
+sort: 0.002
+select: 0.257
+4096 2048 4096 0.1
+total: 0.371
+conv: 0.004
+mult: 0.097
+norm: 0
+sort: 0.002
+select: 0.266
+4096 2048 8 0.5
+total: 2.275
+conv: 0.016
+mult: 2.006
+norm: 0
+sort: 0.003
+select: 0.248
+4096 2048 64 0.5
+total: 2.297
+conv: 0.015
+mult: 2.027
+norm: 0
+sort: 0.003
+select: 0.249
+4096 2048 256 0.5
+total: 2.292
+conv: 0.015
+mult: 2.022
+norm: 0
+sort: 0.003
+select: 0.25
+4096 2048 512 0.5
+total: 2.326
+conv: 0.015
+mult: 2.055
+norm: 0
+sort: 0.003
+select: 0.251
+4096 2048 1024 0.5
+total: 2.282
+conv: 0.015
+mult: 2.009
+norm: 0
+sort: 0.003
+select: 0.252
+4096 2048 2048 0.5
+total: 2.29
+conv: 0.015
+mult: 2.013
+norm: 0
+sort: 0.003
+select: 0.257
+4096 2048 4096 0.5
+total: 2.312
+conv: 0.018
+mult: 2.025
+norm: 0
+sort: 0.003
+select: 0.264
+4096 2048 8 1
+total: 7.949
+conv: 0.029
+mult: 7.666
+norm: 0
+sort: 0.004
+select: 0.247
+4096 2048 64 1
+total: 7.811
+conv: 0.031
+mult: 7.527
+norm: 0
+sort: 0.004
+select: 0.247
+4096 2048 256 1
+total: 7.8
+conv: 0.029
+mult: 7.517
+norm: 0
+sort: 0.004
+select: 0.248
+4096 2048 512 1
+total: 7.794
+conv: 0.029
+mult: 7.509
+norm: 0
+sort: 0.004
+select: 0.249
+4096 2048 1024 1
+total: 7.818
+conv: 0.029
+mult: 7.531
+norm: 0
+sort: 0.004
+select: 0.251
+4096 2048 2048 1
+total: 7.826
+conv: 0.03
+mult: 7.534
+norm: 0
+sort: 0.004
+select: 0.255
+4096 2048 4096 1
+total: 7.841
+conv: 0.029
+mult: 7.543
+norm: 0
+sort: 0.004
+select: 0.263
+4096 4096 8 0.001
+total: 0.08
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.075
+4096 4096 64 0.001
+total: 0.08
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.075
+4096 4096 256 0.001
+total: 0.081
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.076
+4096 4096 512 0.001
+total: 0.082
+conv: 0
+mult: 0.003
+norm: 0
+sort: 0
+select: 0.077
+4096 4096 1024 0.001
+total: 0.084
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.079
+4096 4096 2048 0.001
+total: 0.092
+conv: 0.002
+mult: 0.005
+norm: 0
+sort: 0
+select: 0.083
+4096 4096 4096 0.001
+total: 0.096
+conv: 0
+mult: 0.002
+norm: 0
+sort: 0
+select: 0.091
+4096 4096 8 0.01
+total: 0.173
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.158
+4096 4096 64 0.01
+total: 0.173
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.158
+4096 4096 256 0.01
+total: 0.176
+conv: 0.004
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.159
+4096 4096 512 0.01
+total: 0.175
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.16
+4096 4096 1024 0.01
+total: 0.177
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.162
+4096 4096 2048 0.01
+total: 0.181
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.166
+4096 4096 4096 0.01
+total: 0.188
+conv: 0.001
+mult: 0.011
+norm: 0
+sort: 0
+select: 0.174
+4096 4096 8 0.1
+total: 0.469
+conv: 0.007
+mult: 0.208
+norm: 0.001
+sort: 0.001
+select: 0.249
+4096 4096 64 0.1
+total: 0.471
+conv: 0.007
+mult: 0.206
+norm: 0.001
+sort: 0.005
+select: 0.249
+4096 4096 256 0.1
+total: 0.468
+conv: 0.007
+mult: 0.206
+norm: 0.001
+sort: 0.001
+select: 0.25
+4096 4096 512 0.1
+total: 0.475
+conv: 0.011
+mult: 0.208
+norm: 0.001
+sort: 0.001
+select: 0.251
+4096 4096 1024 0.1
+total: 0.47
+conv: 0.007
+mult: 0.205
+norm: 0.001
+sort: 0.001
+select: 0.253
+4096 4096 2048 0.1
+total: 0.476
+conv: 0.008
+mult: 0.206
+norm: 0.001
+sort: 0.001
+select: 0.257
+4096 4096 4096 0.1
+total: 0.481
+conv: 0.007
+mult: 0.204
+norm: 0.001
+sort: 0.001
+select: 0.265
+4096 4096 8 0.5
+total: 4.662
+conv: 0.031
+mult: 4.374
+norm: 0.002
+sort: 0.004
+select: 0.249
+4096 4096 64 0.5
+total: 4.631
+conv: 0.029
+mult: 4.347
+norm: 0.002
+sort: 0.004
+select: 0.249
+4096 4096 256 0.5
+total: 4.693
+conv: 0.029
+mult: 4.406
+norm: 0.002
+sort: 0.004
+select: 0.25
+4096 4096 512 0.5
+total: 4.633
+conv: 0.029
+mult: 4.345
+norm: 0.002
+sort: 0.004
+select: 0.251
+4096 4096 1024 0.5
+total: 4.732
+conv: 0.029
+mult: 4.439
+norm: 0.006
+sort: 0.004
+select: 0.253
+4096 4096 2048 0.5
+total: 4.657
+conv: 0.029
+mult: 4.362
+norm: 0.002
+sort: 0.004
+select: 0.258
+4096 4096 4096 0.5
+total: 4.687
+conv: 0.029
+mult: 4.385
+norm: 0.002
+sort: 0.004
+select: 0.265
+4096 4096 8 1
+total: 15.945
+conv: 0.057
+mult: 15.632
+norm: 0.001
+sort: 0.007
+select: 0.246
+4096 4096 64 1
+total: 15.949
+conv: 0.057
+mult: 15.635
+norm: 0.001
+sort: 0.007
+select: 0.247
+4096 4096 256 1
+total: 16.045
+conv: 0.057
+mult: 15.731
+norm: 0.001
+sort: 0.007
+select: 0.248
+4096 4096 512 1
+total: 16.001
+conv: 0.057
+mult: 15.685
+norm: 0.001
+sort: 0.007
+select: 0.249
+4096 4096 1024 1
+total: 15.922
+conv: 0.056
+mult: 15.605
+norm: 0.001
+sort: 0.007
+select: 0.251
+4096 4096 2048 1
+total: 16.112
+conv: 0.057
+mult: 15.79
+norm: 0.001
+sort: 0.007
+select: 0.255
+4096 4096 4096 1
+total: 15.974
+conv: 0.057
+mult: 15.645
+norm: 0.001
+sort: 0.007
+select: 0.263
+4096 8192 8 0.001
+total: 0.085
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.079
+4096 8192 64 0.001
+total: 0.085
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.079
+4096 8192 256 0.001
+total: 0.086
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.08
+4096 8192 512 0.001
+total: 0.087
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.081
+4096 8192 1024 0.001
+total: 0.089
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.083
+4096 8192 2048 0.001
+total: 0.093
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.087
+4096 8192 4096 0.001
+total: 0.101
+conv: 0
+mult: 0.004
+norm: 0
+sort: 0
+select: 0.095
+4096 8192 8 0.01
+total: 0.223
+conv: 0.003
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.197
+4096 8192 64 0.01
+total: 0.226
+conv: 0.003
+mult: 0.023
+norm: 0.001
+sort: 0
+select: 0.198
+4096 8192 256 0.01
+total: 0.225
+conv: 0.003
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.199
+4096 8192 512 0.01
+total: 0.227
+conv: 0.003
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.201
+4096 8192 1024 0.01
+total: 0.229
+conv: 0.003
+mult: 0.022
+norm: 0.001
+sort: 0.001
+select: 0.201
+4096 8192 2048 0.01
+total: 0.231
+conv: 0.003
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.205
+4096 8192 4096 0.01
+total: 0.239
+conv: 0.003
+mult: 0.02
+norm: 0.001
+sort: 0
+select: 0.213
+4096 8192 8 0.1
+total: 0.719
+conv: 0.013
+mult: 0.452
+norm: 0.002
+sort: 0.002
+select: 0.25
+4096 8192 64 0.1
+total: 0.729
+conv: 0.013
+mult: 0.462
+norm: 0.002
+sort: 0.002
+select: 0.25
+4096 8192 256 0.1
+total: 0.724
+conv: 0.012
+mult: 0.455
+norm: 0.002
+sort: 0.002
+select: 0.251
+4096 8192 512 0.1
+total: 0.724
+conv: 0.013
+mult: 0.454
+norm: 0.002
+sort: 0.002
+select: 0.252
+4096 8192 1024 0.1
+total: 0.728
+conv: 0.013
+mult: 0.457
+norm: 0.002
+sort: 0.002
+select: 0.253
+4096 8192 2048 0.1
+total: 0.732
+conv: 0.013
+mult: 0.457
+norm: 0.002
+sort: 0.002
+select: 0.258
+4096 8192 4096 0.1
+total: 0.735
+conv: 0.012
+mult: 0.452
+norm: 0.002
+sort: 0.002
+select: 0.265
+4096 8192 8 0.5
+total: 9.672
+conv: 0.057
+mult: 9.356
+norm: 0.002
+sort: 0.007
+select: 0.248
+4096 8192 64 0.5
+total: 9.622
+conv: 0.057
+mult: 9.304
+norm: 0.002
+sort: 0.007
+select: 0.25
+4096 8192 256 0.5
+total: 9.627
+conv: 0.057
+mult: 9.308
+norm: 0.002
+sort: 0.007
+select: 0.251
+4096 8192 512 0.5
+total: 9.649
+conv: 0.058
+mult: 9.331
+norm: 0.002
+sort: 0.007
+select: 0.25
+4096 8192 1024 0.5
+total: 9.622
+conv: 0.058
+mult: 9.297
+norm: 0.004
+sort: 0.009
+select: 0.252
+4096 8192 2048 0.5
+total: 9.629
+conv: 0.058
+mult: 9.303
+norm: 0.002
+sort: 0.007
+select: 0.258
+4096 8192 4096 0.5
+total: 9.646
+conv: 0.059
+mult: 9.311
+norm: 0.001
+sort: 0.007
+select: 0.265
+4096 8192 8 1
+total: 33.362
+conv: 0.114
+mult: 32.987
+norm: 0.001
+sort: 0.01
+select: 0.247
+4096 8192 64 1
+total: 32.751
+conv: 0.112
+mult: 32.378
+norm: 0.001
+sort: 0.01
+select: 0.248
+4096 8192 256 1
+total: 33.209
+conv: 0.113
+mult: 32.834
+norm: 0.001
+sort: 0.01
+select: 0.249
+4096 8192 512 1
+total: 32.761
+conv: 0.112
+mult: 32.386
+norm: 0.001
+sort: 0.01
+select: 0.25
+4096 8192 1024 1
+total: 32.62
+conv: 0.113
+mult: 32.242
+norm: 0.001
+sort: 0.01
+select: 0.252
+4096 8192 2048 1
+total: 32.828
+conv: 0.112
+mult: 32.447
+norm: 0.001
+sort: 0.01
+select: 0.256
+4096 8192 4096 1
+total: 32.904
+conv: 0.116
+mult: 32.511
+norm: 0.001
+sort: 0.01
+select: 0.263
